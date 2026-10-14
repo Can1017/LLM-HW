@@ -12,7 +12,7 @@ LLM-HW/
 | 作业 | 项目说明 | 实验报告 |
 | --- | --- | --- |
 | HW1 | [环境与运行](hw1/README.md) | [n-gram 实验报告](hw1/作业报告.md) |
-| HW2 · P137 | [环境与运行](hw2/README.md) | [Gensim 与 FastText 实验报告](hw2/docs/P137实验报告.md) |
+| HW2 | [环境与运行](hw2/README.md) | [Gensim 与 FastText 实验报告](hw2/docs/P137实验报告.md) |
 
 获取完整代码及 KenLM 子模块：
 
