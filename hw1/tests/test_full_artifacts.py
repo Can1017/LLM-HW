@@ -64,11 +64,14 @@ def test_ranking_generation_and_report_links():
     assert "perplexity" in report.lower() and "lmplz" in report
     assert "## 参考文献与项目" in report
     for target in re.findall(r"!?\[[^]]*\]\(([^)]+)\)", report):
-        if not target.startswith(("https://", "http://")):
-            assert (ROOT / target).exists(), target
+        assert target.startswith("https://"), target
+        parsed = urlparse(target)
+        if parsed.netloc == "github.com" and parsed.path.startswith("/Can1017/LLM-HW1-NGram/"):
+            relative = unquote(parsed.path.split("/main/hw1/", 1)[1])
+            assert (ROOT / relative).exists(), target
     embedded = re.findall(r'<img src="([^"]+)"', report)
     assert len(embedded) == 7
-    expected_prefix = "/Can1017/LLM-HW1-NGram/main/figures/full/"
+    expected_prefix = "/Can1017/LLM-HW1-NGram/main/hw1/figures/full/"
     for target in embedded:
         parsed = urlparse(target)
         assert parsed.scheme == "https" and parsed.netloc == "raw.githubusercontent.com"

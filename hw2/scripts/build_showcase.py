@@ -39,7 +39,7 @@ dialog::backdrop{background:#000a}button{background:var(--blue);color:white;bord
 </style>
 <main><header><h1>Gensim 与 FastText<br>新闻分类实验</h1>
 <p>从词语上下文学习表示，用文档向量预测人民日报版面。实验逐步增加到 2、4、6 类，并通过验证集比较参数、聚合方式与分类结构。</p>
-<a href="P137实验报告.md">阅读完整实验报告</a> · <a href="source-map.md">查看源码对照</a>
+<a href="https://github.com/Can1017/LLM-HW1-NGram/blob/main/hw2/docs/P137%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.md">阅读完整实验报告</a> · <a href="https://github.com/Can1017/LLM-HW1-NGram/blob/main/hw2/docs/source-map.md">查看源码对照</a>
 </header><div class="facts"><div><strong>2,083</strong>训练、验证与测试文章</div><div><strong>15</strong>词向量配置</div><div><strong>12</strong>结果图表</div></div>
 <section><h2>分类结果</h2><label for="classes">类别数量 </label><select id="classes" onchange="update()"><option>2</option><option>4</option><option selected>6</option></select>
 <p><small>行按验证 Macro-F1 排序，浅绿色标记该阶段验证分数最高的方法。准确率与 Macro-F1 列展示独立测试结果。</small></p>

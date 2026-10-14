@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 from pathlib import Path
 from urllib.parse import quote
 
@@ -30,7 +31,19 @@ BLUE, RED, GRAY = "#244b91", "#c65d42", "#657185"
 
 def figure_url(filename):
     """生成可在外部编辑器显示的公开图片地址。"""
-    return "https://raw.githubusercontent.com/Can1017/LLM-HW1-NGram/main/figures/full/" + quote(filename)
+    return "https://raw.githubusercontent.com/Can1017/LLM-HW1-NGram/main/hw1/figures/full/" + quote(filename)
+
+
+def public_links(document):
+    """Use public repository URLs so a standalone report keeps its references."""
+    def replace(match):
+        label, target = match.groups()
+        if target.startswith(("https://", "http://")):
+            return match.group(0)
+        view = "tree" if (ROOT / target).is_dir() else "blob"
+        url = f"https://github.com/Can1017/LLM-HW1-NGram/{view}/main/hw1/{quote(target, safe='/')}"
+        return f"{label}({url})"
+    return re.sub(r"(!?\[[^\]]*\])\(([^)]+)\)", replace, document)
 
 
 def save(name, headers, rows):
@@ -189,7 +202,7 @@ def build():
 
 训练端将每句转为一行、以空格分词，文章之间不拼接上下文。词首、词尾标记用于模型内部计数。`lmplz` 是 KenLM 的语言模型估计程序：它读取逐行分词语料，统计 n-gram，使用 Modified Kneser–Ney 平滑估计条件概率，并输出 ARPA 文本模型；这里的 `-o` 指模型阶数，`-S 2G` 限定排序内存，`-T` 指定临时目录。各阶训练统一使用 `--discount_fallback` 配置。Stupid Backoff 的回退系数为 0.4。KenLM 的概率经过归一化，可计算 perplexity；Stupid Backoff 的分数不构成规范概率分布，因此只比较同一候选集上的排序，**不计算其 perplexity**。
 
-实验在 Windows 主机的 WSL Ubuntu 22.04 环境中完成，处理器为 Intel Core i5-12500H，WSL 可用内存约 7.6 GiB。KenLM 使用本地编译的 `lmplz` 与 Python 查询模块；SQLite 计数库放在 WSL 的 ext4 文件系统中，训练文本与 ARPA 先在该文件系统处理，再将结果复制回 `hw1/code`。这样避免 Windows 挂载目录上的内存映射故障；[环境脚本](env/ensure_full.sh) 和 [执行脚本](run_hw1.ps1) 记录了命令入口。
+实验在 Windows 主机的 WSL Ubuntu 22.04 环境中完成，处理器为 Intel Core i5-12500H，WSL 可用内存约 7.6 GiB。KenLM 使用本地编译的 `lmplz` 与 Python 查询模块；SQLite 计数库放在 WSL 的 ext4 文件系统中，训练文本与 ARPA 先在该文件系统处理，再将结果复制回 HW1 工作目录。统一仓库中该目录为 `hw1/`。这样避免 Windows 挂载目录上的内存映射故障；[环境脚本](env/ensure_full.sh) 和 [执行脚本](run_hw1.ps1) 记录了命令入口。
 
 ## 3. 关键实现与运行命令
 
@@ -213,7 +226,7 @@ return 0.4 * self.stupid(word, context[1:])
 
 续写将各候选词的对数分数除以温度后做稳定 softmax，再从前 20 个候选词中抽样；生成 `</s>` 或达到 80 新词时停止。Stupid Backoff 的这一步只是在**受限候选词集合内归一化抽样权重**，不意味着其原始分数成为标准语言模型概率。提示词沿用原始语料的词级切分，所有实验只使用种子 42。
 
-在 `hw1/code` 目录运行以下命令即可按现有依赖重建报告，或执行完整流水线：
+在统一仓库的 `hw1/` 目录运行以下命令即可按现有依赖重建报告，或执行完整流水线：
 
 ```powershell
 python build_full_report.py
@@ -302,7 +315,7 @@ $$
 
 [5] [LynxPeng/LLM-HomeWork_N-Gram](https://github.com/LynxPeng/LLM-HomeWork_N-Gram)；[Highsun/n-gram-LM](https://github.com/Highsun/n-gram-LM). 课程相关实现参考项目。
 """
-    (ROOT / "作业报告.md").write_text(doc, encoding="utf-8")
+    (ROOT / "作业报告.md").write_text(public_links(doc), encoding="utf-8")
 
 
 if __name__ == "__main__":

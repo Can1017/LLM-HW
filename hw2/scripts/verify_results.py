@@ -3,6 +3,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 import numpy as np
 import pandas as pd
@@ -41,8 +42,14 @@ assert report.count("$$") % 2 == 0
 assert not re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", report), "Unexpected control characters"
 assert not re.search(r"不是没有|并非没有|不能不|不可不|不得不|不能否认|不可否认", report)
 for target in re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", report):
-    if not target.startswith(("https://", "http://")):
-        assert (report_path.parent / target).exists(), target
+    assert target.startswith("https://"), target
+    parsed = urlparse(target)
+    if parsed.netloc in {"github.com", "raw.githubusercontent.com"} and parsed.path.startswith("/Can1017/LLM-HW1-NGram/"):
+        if "/main/hw2/" in parsed.path:
+            relative = unquote(parsed.path.split("/main/hw2/", 1)[1])
+            assert (ROOT / relative).exists(), target
+        else:
+            assert parsed.path.rstrip("/") == "/Can1017/LLM-HW1-NGram", target
 assert len(list((ROOT / "figures").glob("*.png"))) == 12
 assert len(list((ROOT / "figures").glob("*.svg"))) == 12
 assert (ROOT / "docs/实验展示.html").exists()

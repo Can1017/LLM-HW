@@ -1,5 +1,5 @@
 # 被其它脚本 source：统一目录与环境变量。
-# 约束：所有数据、临时文件、缓存都必须落在 D:\PostGraduate\LLM\hw1\code 之内（WSL 中即 /mnt/d/PostGraduate/LLM/hw1/code），
+# 约束：所有数据、临时文件、缓存都必须落在 HW1 项目目录之内（由脚本位置自动解析），
 # 绝不写 C 盘。
 _ENV_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 export HW1_CODE="$(cd "$_ENV_DIR/.." && pwd)"
