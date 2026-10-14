@@ -5,8 +5,8 @@
 从 GitHub 克隆时请带上 KenLM 子模块。在 Windows PowerShell 中进入本目录，运行一条命令即可下载并校验语料、完成实验、生成报告；已有结果会复用：
 
 ```powershell
-git clone --recurse-submodules https://github.com/Can1017/LLM-HW1-NGram.git
-cd LLM-HW1-NGram\hw1
+git clone --recurse-submodules https://github.com/Can1017/LLM-HW.git
+cd LLM-HW\hw1
 python -m pip install -r requirements.txt
 .\run_hw1.ps1
 ```

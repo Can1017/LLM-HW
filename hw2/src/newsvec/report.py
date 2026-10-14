@@ -15,7 +15,7 @@ def table(headers, rows):
 
 
 def image(number, file, caption):
-    url = "https://raw.githubusercontent.com/Can1017/LLM-HW1-NGram/main/hw2/figures/" + quote(file) + ".png"
+    url = "https://raw.githubusercontent.com/Can1017/LLM-HW/main/hw2/figures/" + quote(file) + ".png"
     return f"![图 {number} {caption}]({url})\n\n图 {number}：{caption}。\n"
 
 
@@ -212,7 +212,7 @@ $$
 
 ## 6. Gensim 核心与周边源码
 
-源码核对以本地 Gensim 4.3.0 为准，函数行号、版本链接和文件哈希见 [源码位置索引](https://github.com/Can1017/LLM-HW1-NGram/blob/main/hw2/docs/source-map.md)。这里围绕“数据怎样进入模型、参数怎样更新、结果怎样保存”说明实现。
+源码核对以本地 Gensim 4.3.0 为准，函数行号、版本链接和文件哈希见 [源码位置索引](https://github.com/Can1017/LLM-HW/blob/main/hw2/docs/source-map.md)。这里围绕“数据怎样进入模型、参数怎样更新、结果怎样保存”说明实现。
 
 | 环节 | 源码入口 | 作用 |
 | --- | --- | --- |
@@ -391,9 +391,9 @@ python scripts/verify_results.py
 
 ## 13. 交付文件与参考文献
 
-项目提供源码、配置、环境版本、数值结果、数据划分清单、本报告和 12 张 PNG/SVG 图表。原始语料、下载论文、完整文章文本、模型权重和运行缓存保留本地。两次作业共用 [GitHub 仓库](https://github.com/Can1017/LLM-HW1-NGram)，根目录下的 `hw1/` 与 `hw2/` 并列。
+项目提供源码、配置、环境版本、数值结果、数据划分清单、本报告和 12 张 PNG/SVG 图表。原始语料、下载论文、完整文章文本、模型权重和运行缓存保留本地。两次作业共用 [GitHub 仓库](https://github.com/Can1017/LLM-HW)，根目录下的 `hw1/` 与 `hw2/` 并列。
 
-在线复核入口：[HW2 项目说明](https://github.com/Can1017/LLM-HW1-NGram/blob/main/hw2/README.md) · [实验配置](https://github.com/Can1017/LLM-HW1-NGram/blob/main/hw2/configs/experiment.json) · [实现源码](https://github.com/Can1017/LLM-HW1-NGram/tree/main/hw2/src/newsvec) · [分类结果](https://github.com/Can1017/LLM-HW1-NGram/blob/main/hw2/results/combined_classification.csv) · [全部图表](https://github.com/Can1017/LLM-HW1-NGram/tree/main/hw2/figures)。图片与项目链接均使用完整在线地址，报告单独保存后仍可通过网络访问关联材料。
+在线复核入口：[HW2 项目说明](https://github.com/Can1017/LLM-HW/blob/main/hw2/README.md) · [实验配置](https://github.com/Can1017/LLM-HW/blob/main/hw2/configs/experiment.json) · [实现源码](https://github.com/Can1017/LLM-HW/tree/main/hw2/src/newsvec) · [分类结果](https://github.com/Can1017/LLM-HW/blob/main/hw2/results/combined_classification.csv) · [全部图表](https://github.com/Can1017/LLM-HW/tree/main/hw2/figures)。图片与项目链接均使用完整在线地址，报告单独保存后仍可通过网络访问关联材料。
 
 [1] BOJANOWSKI P, GRAVE E, JOULIN A, et al. [Enriching Word Vectors with Subword Information](https://aclanthology.org/Q17-1010/)[J]. Transactions of the Association for Computational Linguistics, 2017, 5: 135—146. [arXiv:1607.04606](https://arxiv.org/abs/1607.04606).
 

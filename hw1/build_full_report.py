@@ -31,7 +31,7 @@ BLUE, RED, GRAY = "#244b91", "#c65d42", "#657185"
 
 def figure_url(filename):
     """生成可在外部编辑器显示的公开图片地址。"""
-    return "https://raw.githubusercontent.com/Can1017/LLM-HW1-NGram/main/hw1/figures/full/" + quote(filename)
+    return "https://raw.githubusercontent.com/Can1017/LLM-HW/main/hw1/figures/full/" + quote(filename)
 
 
 def public_links(document):
@@ -41,7 +41,7 @@ def public_links(document):
         if target.startswith(("https://", "http://")):
             return match.group(0)
         view = "tree" if (ROOT / target).is_dir() else "blob"
-        url = f"https://github.com/Can1017/LLM-HW1-NGram/{view}/main/hw1/{quote(target, safe='/')}"
+        url = f"https://github.com/Can1017/LLM-HW/{view}/main/hw1/{quote(target, safe='/')}"
         return f"{label}({url})"
     return re.sub(r"(!?\[[^\]]*\])\(([^)]+)\)", replace, document)
 

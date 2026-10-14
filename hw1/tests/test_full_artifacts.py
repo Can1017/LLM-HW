@@ -66,12 +66,12 @@ def test_ranking_generation_and_report_links():
     for target in re.findall(r"!?\[[^]]*\]\(([^)]+)\)", report):
         assert target.startswith("https://"), target
         parsed = urlparse(target)
-        if parsed.netloc == "github.com" and parsed.path.startswith("/Can1017/LLM-HW1-NGram/"):
+        if parsed.netloc == "github.com" and parsed.path.startswith("/Can1017/LLM-HW/"):
             relative = unquote(parsed.path.split("/main/hw1/", 1)[1])
             assert (ROOT / relative).exists(), target
     embedded = re.findall(r'<img src="([^"]+)"', report)
     assert len(embedded) == 7
-    expected_prefix = "/Can1017/LLM-HW1-NGram/main/hw1/figures/full/"
+    expected_prefix = "/Can1017/LLM-HW/main/hw1/figures/full/"
     for target in embedded:
         parsed = urlparse(target)
         assert parsed.scheme == "https" and parsed.netloc == "raw.githubusercontent.com"

@@ -44,12 +44,12 @@ assert not re.search(r"不是没有|并非没有|不能不|不可不|不得不|�
 for target in re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", report):
     assert target.startswith("https://"), target
     parsed = urlparse(target)
-    if parsed.netloc in {"github.com", "raw.githubusercontent.com"} and parsed.path.startswith("/Can1017/LLM-HW1-NGram/"):
+    if parsed.netloc in {"github.com", "raw.githubusercontent.com"} and parsed.path.startswith("/Can1017/LLM-HW/"):
         if "/main/hw2/" in parsed.path:
             relative = unquote(parsed.path.split("/main/hw2/", 1)[1])
             assert (ROOT / relative).exists(), target
         else:
-            assert parsed.path.rstrip("/") == "/Can1017/LLM-HW1-NGram", target
+            assert parsed.path.rstrip("/") == "/Can1017/LLM-HW", target
 assert len(list((ROOT / "figures").glob("*.png"))) == 12
 assert len(list((ROOT / "figures").glob("*.svg"))) == 12
 assert (ROOT / "docs/实验展示.html").exists()
