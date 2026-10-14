@@ -1,9 +1,9 @@
 # LLM 课程作业
 
-两次作业按并列目录组织，各目录独立保存代码、实验配置、报告、图表与必要结果。
+各目录独立保存代码、实验配置、报告、图表与必要结果。
 
 ```text
-LLM-HW1-NGram/
+LLM-HW/
 ├── README.md
 ├── hw1/    n-gram、KenLM 与 Stupid Backoff
 └── hw2/    Gensim、FastText 与新闻版面分类
@@ -17,8 +17,8 @@ LLM-HW1-NGram/
 获取完整代码及 KenLM 子模块：
 
 ```bash
-git clone --recurse-submodules https://github.com/Can1017/LLM-HW1-NGram.git
-cd LLM-HW1-NGram
+git clone --recurse-submodules https://github.com/Can1017/LLM-HW.git
+cd LLM-HW
 ```
 
 运行 HW1 时进入 `hw1/`，运行 HW2 时进入 `hw2/`，再按对应 README 配置环境与数据。实验报告中的项目链接指向 GitHub，图片使用完整在线地址，单独保存报告后仍可通过网络访问。
