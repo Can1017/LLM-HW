@@ -137,7 +137,7 @@ def plot_all(config):
 
     coverage = read_json(ROOT / "results/coverage.json")
     selected_names = ["w2v_sg", "ft_sg", "ft_char3_6"]
-    fig, ax = plt.subplots(figsize=(8.5, 4.5), layout="constrained")
+    fig, ax = plt.subplots(figsize=(8.5, 4.8), layout="constrained")
     x = np.arange(3)
     ax.bar(x - .18, [1 - coverage[n]["test"]["vocab_oov_rate"] for n in selected_names], width=.36,
            label="训练词表内的词", color=COLORS[0])
@@ -145,7 +145,7 @@ def plot_all(config):
            label="可生成有效向量的词", color=COLORS[2])
     ax.set(xticks=x, xticklabels=selected_names, ylim=(0, 1.08), ylabel="测试 token 覆盖比例",
            title="图 8  词表覆盖与子词向量生成能力")
-    ax.legend(frameon=False, loc="lower right")
+    ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.10), ncol=2)
     save(fig, "08_oov_coverage")
 
     packed = np.load(ROOT / "results/features/dense_projection.npz")
