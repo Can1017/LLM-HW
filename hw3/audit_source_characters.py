@@ -1,5 +1,7 @@
 """Record original-source evidence for the two unusual characters in report examples."""
 import hashlib
+import json
+from pathlib import Path
 import subprocess
 import unicodedata
 
@@ -7,7 +9,9 @@ from prepare_data import ARCHIVE, ROOT, write_json
 
 
 def main():
-    raw = subprocess.check_output(['C:/Windows/System32/tar.exe', '-xOf', str(ARCHIVE), '*1998-03*'])
+    statistics = json.loads((ROOT / 'results/data_statistics.json').read_text(encoding='utf-8'))
+    archive_path = Path(statistics['archive'])
+    raw = subprocess.check_output(['C:/Windows/System32/tar.exe', '-xOf', str(archive_path), '*1998-03*'])
     line = next(line for line in raw.splitlines() if line.startswith(b'19980304-02-002-001 '))
     decoded = line.decode('gb18030', 'strict')
     assert '〓' in decoded and '〓'.encode('gb18030').hex() == 'a1fe'

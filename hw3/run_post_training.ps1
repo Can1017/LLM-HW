@@ -11,5 +11,11 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 & $condaExe run --no-capture-output -n hw3-bert python -u evaluate_lunyu.py *> logs\news-bert\lunyu.log
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+& $condaExe run --no-capture-output -n hw3-bert python audit_source_characters.py
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+& $condaExe run --no-capture-output -n hw3-bert python build_examples.py
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+& $condaExe run --no-capture-output -n hw3-bert python build_data_report.py
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 & $condaExe run --no-capture-output -n hw3-bert python build_report.py
 exit $LASTEXITCODE

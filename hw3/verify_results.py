@@ -13,7 +13,8 @@ from prepare_data import ROOT, ARCHIVE, write_json
 def main():
     read = lambda name: json.loads((ROOT / 'results' / name).read_text(encoding='utf-8'))
     data = read('data_statistics.json')
-    assert hashlib.sha256(ARCHIVE.read_bytes()).hexdigest() == data['archive_sha256']
+    archive_path = Path(data['archive'])
+    assert hashlib.sha256(archive_path.read_bytes()).hexdigest() == data['archive_sha256']
     seen_ids, seen_content = set(), set()
     for split in ['train', 'validation', 'test']:
         docs = read_jsonl(ROOT / 'data/processed' / f'{split}.jsonl')
