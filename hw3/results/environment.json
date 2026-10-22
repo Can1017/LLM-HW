@@ -1,0 +1,21 @@
+{
+  "python_executable": "C:\\Users\\86183\\.conda\\envs\\hw3-bert\\python.exe",
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "user_site_enabled": false,
+  "torch_location": "C:\\Users\\86183\\.conda\\envs\\hw3-bert\\Lib\\site-packages\\torch\\__init__.py",
+  "torch": "2.6.0+cu124",
+  "cuda_runtime": "12.4",
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "gpu_memory_mib": 4095.5,
+  "cuda_matrix_multiplication": "passed",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.1",
+    "numpy": "1.26.4",
+    "requests": "2.32.5",
+    "matplotlib": "3.10.8",
+    "pytest": "8.4.2",
+    "tokenizers": "0.22.2"
+  }
+}

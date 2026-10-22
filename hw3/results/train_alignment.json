@@ -1,0 +1,11 @@
+{
+  "samples": 14881,
+  "windows": 33261,
+  "supervised_characters": 8706352,
+  "expected_supervised_characters": 8706352,
+  "unknown_tokens_including_overlap": 9527,
+  "max_token_length": 402,
+  "context_characters": 400,
+  "stride_characters": 300,
+  "overlap_loss": "Only the owned core of each window contributes to loss/metrics."
+}

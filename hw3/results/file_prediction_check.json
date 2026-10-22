@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_article": "19980304-02-002-114",
+  "characters": 11159,
+  "windows": 37,
+  "batch_size": 32,
+  "all_original_characters_and_whitespace_preserved": true,
+  "input_sha256": "cb084824f82e1e7c5e41d08c41657745b5f8ab5fa5d0b22ec903c7880cb80a12",
+  "output_sha256": "56f11c9918648321bcbac66cde35bd39e99ea8d8f75f3d363255cefad2d1c988"
+}

@@ -1,0 +1,90 @@
+{
+  "repository": "https://github.com/chinese-poetry/chinese-poetry",
+  "revision": "b8594f81a89752241442f2ce267d6f66f96704ee",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/论语/lunyu.json",
+      "path": "data\\lunyu\\upstream\\lunyu.json",
+      "bytes": 74799,
+      "sha256": "bc336a3839706377892719db44c48a09794a493190535a42bf1c7d4c4233e96c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/论语/README.md",
+      "path": "data\\lunyu\\upstream\\README.md",
+      "bytes": 2920,
+      "sha256": "cf68aeebf8982ac12307c62c12a6107f1185c3911081c20fba75a860a8a66139"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/LICENSE",
+      "path": "data\\lunyu\\upstream\\LICENSE",
+      "bytes": 1076,
+      "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507"
+    }
+  ],
+  "source_role": "Pinned open-source electronic Analects punctuation reference",
+  "upstream_readme_discrepancies": [
+    "README: traditional; current JSON: simplified",
+    "README: 492 chapters/sections; JSON: 512 records in 20 books"
+  ],
+  "punctuation_normalization": {
+    ",": "，",
+    "?": "？",
+    ":": "："
+  },
+  "processing_counts": {
+    "pronunciation_spans": 0,
+    "target_：": 788,
+    "excluded_“": 764,
+    "target_，": 1586,
+    "target_？": 302,
+    "excluded_”": 765,
+    "ignored_gaps": 2,
+    "target_；": 128,
+    "target_。": 861,
+    "target_！": 120,
+    "target_、": 93,
+    "excluded_《": 37,
+    "excluded_》": 37,
+    "excluded_‘": 41,
+    "excluded_’": 41,
+    "ascii_58_mapped": 1,
+    "ascii_63_mapped": 1,
+    "ascii_44_mapped": 5,
+    "multiple_target_marks_at_gap": 2
+  },
+  "paragraphs": 512,
+  "chapters": 20,
+  "characters": 15917,
+  "paragraph_max_characters": 315,
+  "chapter_max_characters": 1339,
+  "chapter_over_400": 19,
+  "chapter_over_510": 17,
+  "label_counts": {
+    "IGNORE": 2,
+    "NONE": 12041,
+    "，": 1584,
+    "。": 860,
+    "？": 301,
+    "！": 120,
+    "、": 93,
+    "：": 788,
+    "；": 128
+  },
+  "verbatim_news_training_quotations": [
+    {
+      "lunyu_id": "lunyu-07-025",
+      "news_training_id": "19980527-09-007-6",
+      "characters": 8
+    }
+  ],
+  "reference_crosscheck": {
+    "url": "https://ctext.org/analects/xue-er/zhs",
+    "scope": "Read-only spot check of opening passages; no wholesale text or punctuation replacement",
+    "observations": [
+      "Opening Analects passage agrees",
+      "Second passage has a comma difference after 不好犯上 in the two electronic editions"
+    ]
+  },
+  "role": "Evaluation only; no new model training or hyperparameter selection",
+  "interpretation": "Agreement with a fixed electronic punctuation edition; common classics may occur in pretraining."
+}

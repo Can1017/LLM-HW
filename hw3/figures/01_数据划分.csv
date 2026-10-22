@@ -1,0 +1,4 @@
+﻿split,articles,characters,paragraphs
+train,14864,8712807,98847
+validation,1856,1044088,12100
+test,1862,1107354,12715

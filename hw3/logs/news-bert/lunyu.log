@@ -1,0 +1,11 @@
+{"url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/论语/lunyu.json", "path": "data\\lunyu\\upstream\\lunyu.json", "bytes": 74799, "sha256": "bc336a3839706377892719db44c48a09794a493190535a42bf1c7d4c4233e96c"}
+{"url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/论语/README.md", "path": "data\\lunyu\\upstream\\README.md", "bytes": 2920, "sha256": "cf68aeebf8982ac12307c62c12a6107f1185c3911081c20fba75a860a8a66139"}
+{"url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/LICENSE", "path": "data\\lunyu\\upstream\\LICENSE", "bytes": 1076, "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507"}
+paragraphs fixed 1 0.6487708392201187
+paragraphs fixed 8 0.6487708392201187
+paragraphs adaptive 1 0.6487708392201187
+paragraphs adaptive 8 0.6487708392201187
+chapters fixed 1 0.6194517879504661
+chapters fixed 8 0.6190675017397356
+chapters adaptive 1 0.6173767752715121
+chapters adaptive 8 0.6170983013088276

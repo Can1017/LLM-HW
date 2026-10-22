@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "filename": "hw3-news-bert.zip",
+      "bytes": 378939259,
+      "sha256": "c2c03ec9644472ad625f9834bef6818c136f482f5568a0db19833727f5c5a7ad",
+      "url": "https://github.com/Can1017/LLM-HW/releases/download/hw3-news-bert-v1/hw3-news-bert.zip"
+    },
+    {
+      "filename": "hw3-predictions.zip",
+      "bytes": 3307718,
+      "sha256": "abcd8be578d9c9511aaa74ebd678c315cd61dda3a2a0c0223d918b699e912fec",
+      "url": "https://github.com/Can1017/LLM-HW/releases/download/hw3-news-bert-v1/hw3-predictions.zip"
+    }
+  ],
+  "model_restore": "Extract hw3-news-bert.zip inside hw3/; it creates models/news-bert/.",
+  "prediction_restore": "Extract hw3-predictions.zip inside hw3/; it creates data/predictions/news-bert/.",
+  "model_weight_sha256": "806d514f24c5c11b907896c0023af34e6596dcf13253629dea219c3b0023d5b8"
+}

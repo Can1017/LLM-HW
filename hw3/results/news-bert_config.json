@@ -1,0 +1,16 @@
+{
+  "mode": "train",
+  "batch_size": 4,
+  "accumulation": 4,
+  "eval_batch": 8,
+  "checkpointing": false,
+  "epochs": 3,
+  "lr": 2e-05,
+  "run": "news-bert",
+  "training_windows": 33261,
+  "validation_windows": 4012,
+  "device": "cuda",
+  "torch": "2.6.0+cu124",
+  "seed": 42,
+  "effective_batch_size": 16
+}

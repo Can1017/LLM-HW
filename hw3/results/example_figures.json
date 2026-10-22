@@ -1,0 +1,162 @@
+{
+  "news_first_medium": {
+    "path": "figures/examples/news_first_medium.png",
+    "id": "19980104-02-002-3",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 102,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 0,
+      "extra": 0,
+      "wrong": 1,
+      "ignored": 0
+    }
+  },
+  "news_first_question": {
+    "path": "figures/examples/news_first_question.png",
+    "id": "19980103-03-004-11",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 102,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 0,
+      "extra": 1,
+      "wrong": 0,
+      "ignored": 0
+    }
+  },
+  "news_longest": {
+    "path": "figures/examples/news_longest.png",
+    "id": "19980304-02-002-114",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 102,
+    "special_codepoints": [
+      "U+3013"
+    ],
+    "error_counts_in_excerpt": {
+      "missing": 0,
+      "extra": 1,
+      "wrong": 0,
+      "ignored": 2
+    }
+  },
+  "news_seam": {
+    "path": "figures/examples/news_seam.png",
+    "id": "19980304-02-002-114",
+    "offset_start_zero_based": 310,
+    "displayed_characters": 80,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 0,
+      "extra": 1,
+      "wrong": 2,
+      "ignored": 0
+    }
+  },
+  "news_lowest_f1_medium": {
+    "path": "figures/examples/news_lowest_f1_medium.png",
+    "id": "19980507-04-007-20",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 102,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 2,
+      "extra": 31,
+      "wrong": 0,
+      "ignored": 0
+    }
+  },
+  "cclue_first_medium": {
+    "path": "figures/examples/cclue_first_medium.png",
+    "id": "cclue-test-1-4",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 100,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 7,
+      "extra": 5,
+      "wrong": 2,
+      "ignored": 0
+    }
+  },
+  "cclue_first_question": {
+    "path": "figures/examples/cclue_first_question.png",
+    "id": "cclue-test-2-24",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 92,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 3,
+      "extra": 3,
+      "wrong": 2,
+      "ignored": 0
+    }
+  },
+  "cclue_longest": {
+    "path": "figures/examples/cclue_longest.png",
+    "id": "cclue-test-108-1964",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 102,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 0,
+      "extra": 2,
+      "wrong": 0,
+      "ignored": 0
+    }
+  },
+  "cclue_lowest_f1_medium": {
+    "path": "figures/examples/cclue_lowest_f1_medium.png",
+    "id": "cclue-test-83-1460",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 129,
+    "special_codepoints": [
+      "U+E583"
+    ],
+    "error_counts_in_excerpt": {
+      "missing": 15,
+      "extra": 0,
+      "wrong": 0,
+      "ignored": 0
+    }
+  },
+  "lunyu_opening": {
+    "path": "figures/examples/lunyu_opening.png",
+    "id": "lunyu-01-001",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 32,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 1,
+      "extra": 0,
+      "wrong": 0,
+      "ignored": 0
+    }
+  },
+  "lunyu_longest": {
+    "path": "figures/examples/lunyu_longest.png",
+    "id": "lunyu-11-026",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 102,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 8,
+      "extra": 3,
+      "wrong": 3,
+      "ignored": 0
+    }
+  },
+  "lunyu_lowest_f1": {
+    "path": "figures/examples/lunyu_lowest_f1.png",
+    "id": "lunyu-11-003",
+    "offset_start_zero_based": 0,
+    "displayed_characters": 30,
+    "special_codepoints": [],
+    "error_counts_in_excerpt": {
+      "missing": 14,
+      "extra": 0,
+      "wrong": 0,
+      "ignored": 0
+    }
+  }
+}

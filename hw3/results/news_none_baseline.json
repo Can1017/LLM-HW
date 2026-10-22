@@ -1,0 +1,141 @@
+{
+  "punctuation_micro_f1": 0.0,
+  "punctuation_macro_f1": 0.0,
+  "punctuation_precision": 0,
+  "punctuation_recall": 0.0,
+  "sentence_boundary_f1": 0.0,
+  "character_accuracy": 0.9166967923389211,
+  "scored_positions": 1106476,
+  "confusion_matrix": [
+    [
+      1014303,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      49609,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      23864,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      513,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      318,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      13934,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2165,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1770,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "per_class": {
+    "NONE": {
+      "precision": 0.9166967923389211,
+      "recall": 1.0,
+      "f1": 0.956538139994785,
+      "support": 1014303
+    },
+    "，": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 49609
+    },
+    "。": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 23864
+    },
+    "？": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 513
+    },
+    "！": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 318
+    },
+    "、": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 13934
+    },
+    "：": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2165
+    },
+    "；": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1770
+    }
+  }
+}

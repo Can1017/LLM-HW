@@ -6,13 +6,15 @@
 LLM-HW/
 ├── README.md
 ├── hw1/    n-gram、KenLM 与 Stupid Backoff
-└── hw2/    Gensim、FastText 与新闻版面分类
+├── hw2/    Gensim、FastText 与新闻版面分类
+└── hw3/    BERT 微调、断句标点与批量长文推理
 ```
 
 | 作业 | 项目说明 | 实验报告 |
 | --- | --- | --- |
-| HW1 | [环境与运行](hw1/README.md) | [n-gram 实验报告](hw1/作业报告.md) |
-| HW2 | [环境与运行](hw2/README.md) | [Gensim 与 FastText 实验报告](hw2/docs/P137实验报告.md) |
+| HW1 | [环境与运行](https://github.com/Can1017/LLM-HW/blob/main/hw1/README.md) | [n-gram 实验报告](https://github.com/Can1017/LLM-HW/blob/main/hw1/作业报告.md) |
+| HW2 | [环境与运行](https://github.com/Can1017/LLM-HW/blob/main/hw2/README.md) | [Gensim 与 FastText 实验报告](https://github.com/Can1017/LLM-HW/blob/main/hw2/docs/P137实验报告.md) |
+| HW3 | [环境与运行](https://github.com/Can1017/LLM-HW/blob/main/hw3/README.md) | [BERT 断句标点实验报告](https://github.com/Can1017/LLM-HW/blob/main/hw3/作业报告.md) |
 
 获取完整代码及 KenLM 子模块：
 
@@ -21,4 +23,4 @@ git clone --recurse-submodules https://github.com/Can1017/LLM-HW.git
 cd LLM-HW
 ```
 
-运行 HW1 时进入 `hw1/`，运行 HW2 时进入 `hw2/`，再按对应 README 配置环境与数据。实验报告中的项目链接指向 GitHub，图片使用完整在线地址，单独保存报告后仍可通过网络访问。
+运行作业时进入对应的 `hw1/`、`hw2/` 或 `hw3/`，再按相应 README 配置环境与数据。实验报告中的项目链接指向 GitHub，图片使用完整在线地址，单独保存报告后仍可通过网络访问。HW3 的已训练模型和完整预测见 [GitHub Release](https://github.com/Can1017/LLM-HW/releases/tag/hw3-news-bert-v1)。

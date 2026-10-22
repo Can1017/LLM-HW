@@ -1,0 +1,153 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "training_windows": 33261,
+  "experiments": [
+    {
+      "batch_size": 1,
+      "gradient_checkpointing": false,
+      "status": "ok",
+      "median_step_seconds_after_warmup": 0.18277980003040284,
+      "windows_per_second": 5.4710640882289185,
+      "allocated_peak_mib": 1964.23486328125,
+      "reserved_peak_mib": 2206.0,
+      "losses": [
+        1.8570172786712646,
+        1.877642273902893,
+        1.7819349765777588,
+        1.8928320407867432,
+        1.4179638624191284,
+        1.1310944557189941,
+        0.9158039093017578,
+        0.5850782990455627,
+        0.4440041780471802,
+        0.3485605716705322,
+        0.44477277994155884,
+        0.3509528338909149
+      ],
+      "estimated_three_epoch_compute_hours": 5.06619910734269
+    },
+    {
+      "batch_size": 1,
+      "gradient_checkpointing": true,
+      "status": "ok",
+      "median_step_seconds_after_warmup": 0.3282250000629574,
+      "windows_per_second": 3.0466905318247797,
+      "allocated_peak_mib": 1961.32861328125,
+      "reserved_peak_mib": 2140.0,
+      "losses": [
+        1.8570172786712646,
+        1.877642273902893,
+        1.7819349765777588,
+        1.8928320407867432,
+        1.4180176258087158,
+        1.1311767101287842,
+        0.915833592414856,
+        0.5850188136100769,
+        0.4439617991447449,
+        0.34853288531303406,
+        0.44475722312927246,
+        0.35087406635284424
+      ],
+      "estimated_three_epoch_compute_hours": 9.097576439245023
+    },
+    {
+      "batch_size": 2,
+      "gradient_checkpointing": false,
+      "status": "ok",
+      "median_step_seconds_after_warmup": 0.22529950004536659,
+      "windows_per_second": 8.877072517237178,
+      "allocated_peak_mib": 1966.94189453125,
+      "reserved_peak_mib": 2158.0,
+      "losses": [
+        1.8399837017059326,
+        1.8332451581954956,
+        1.8783098459243774,
+        1.9162800312042236,
+        1.440269947052002,
+        0.9988650679588318,
+        0.6825544834136963,
+        0.4509085416793823,
+        0.3843858540058136,
+        0.41009071469306946,
+        0.4133617579936981,
+        0.32959842681884766
+      ],
+      "estimated_three_epoch_compute_hours": 3.122369446253724
+    },
+    {
+      "batch_size": 2,
+      "gradient_checkpointing": true,
+      "status": "ok",
+      "median_step_seconds_after_warmup": 0.3448201999999583,
+      "windows_per_second": 5.800124238661894,
+      "allocated_peak_mib": 1962.35400390625,
+      "reserved_peak_mib": 2138.0,
+      "losses": [
+        1.8399837017059326,
+        1.8332451581954956,
+        1.8783098459243774,
+        1.9162800312042236,
+        1.4402601718902588,
+        0.998816967010498,
+        0.682550311088562,
+        0.4508925676345825,
+        0.3843972086906433,
+        0.41008704900741577,
+        0.4133495092391968,
+        0.3296184539794922
+      ],
+      "estimated_three_epoch_compute_hours": 4.778776946749422
+    },
+    {
+      "batch_size": 4,
+      "gradient_checkpointing": false,
+      "status": "ok",
+      "median_step_seconds_after_warmup": 0.20717409998178482,
+      "windows_per_second": 19.307432735808618,
+      "allocated_peak_mib": 2034.77783203125,
+      "reserved_peak_mib": 2196.0,
+      "losses": [
+        1.8382518291473389,
+        1.8917953968048096,
+        1.9216514825820923,
+        1.8462916612625122,
+        1.3448032140731812,
+        0.9159942269325256,
+        0.6894178986549377,
+        0.5927829146385193,
+        0.5868833661079407,
+        0.5249220728874207,
+        0.4354165196418762,
+        0.35559549927711487
+      ],
+      "estimated_three_epoch_compute_hours": 1.4355870290612802
+    },
+    {
+      "batch_size": 4,
+      "gradient_checkpointing": true,
+      "status": "ok",
+      "median_step_seconds_after_warmup": 0.2636304000625387,
+      "windows_per_second": 15.172757007731718,
+      "allocated_peak_mib": 1967.65283203125,
+      "reserved_peak_mib": 2146.0,
+      "losses": [
+        1.8382518291473389,
+        1.8917953968048096,
+        1.9216514825820923,
+        1.8462916612625122,
+        1.3448320627212524,
+        0.9160243272781372,
+        0.6894400119781494,
+        0.5927456021308899,
+        0.5868688225746155,
+        0.5248886942863464,
+        0.43540772795677185,
+        0.355601042509079
+      ],
+      "estimated_three_epoch_compute_hours": 1.826793903433354
+    }
+  ],
+  "estimate_scope": "Measured full-length optimizer steps; excludes validation, loading, checkpoint IO."
+}

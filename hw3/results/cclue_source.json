@@ -1,0 +1,80 @@
+{
+  "repository": "https://github.com/Ethan-yt/CCLUE",
+  "revision": "ed481c453c1c36397f86905a2bda625ecc5607e1",
+  "labels": [
+    "NONE",
+    "，",
+    "。",
+    "？",
+    "！",
+    "、",
+    "：",
+    "；"
+  ],
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/README.md",
+      "path": "data\\cclue\\upstream\\README.md",
+      "bytes": 3460,
+      "sha256": "539c7fde8fd5b0a80bd62523c36d4d381943c5e156409df23283beb8b6758a4b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/LICENSE",
+      "path": "data\\cclue\\upstream\\LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/data/clean_daizhige.ipynb",
+      "path": "data\\cclue\\upstream\\data\\clean_daizhige.ipynb",
+      "bytes": 41166,
+      "sha256": "fddced2d7055b1e66328d6501185b9c77a4c811105a433c1244f0ace1b595850"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/data/punctuation.ipynb",
+      "path": "data\\cclue\\upstream\\data\\punctuation.ipynb",
+      "bytes": 29451,
+      "sha256": "d7fbb5d07ec644451222f043481d9e2d87a35eb61446aca5040fd16efb575a65"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/data/punctuation/punctuation.py",
+      "path": "data\\cclue\\upstream\\data\\punctuation\\punctuation.py",
+      "bytes": 5868,
+      "sha256": "1238b7a6b9cc800352abff936e869c56aae63d49f6ee2ad80385c5366de9975c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/data/punctuation/dev.txt",
+      "path": "data\\cclue\\upstream\\data\\punctuation\\dev.txt",
+      "bytes": 4232216,
+      "sha256": "16d12a47b4de7685bfa756e035fe31132715730becb7a221e3f2d9d9edb9c282"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/data/punctuation/test.txt",
+      "path": "data\\cclue\\upstream\\data\\punctuation\\test.txt",
+      "bytes": 5177267,
+      "sha256": "b364aee5a5ee03817aad25f0553f024b2b416b8cfdf16cc8af394efd50652ab1"
+    }
+  ],
+  "splits": {
+    "validation": {
+      "samples": 4074,
+      "characters": 341563,
+      "over_400": 0,
+      "over_2000": 0
+    },
+    "test": {
+      "samples": 3992,
+      "characters": 417786,
+      "over_400": 0,
+      "over_2000": 0
+    }
+  },
+  "upstream_processing": [
+    "Simplified Chinese conversion",
+    "Selected symbol removal",
+    "Require paragraph comma and full stop",
+    "Filter books by quote/book-mark counts",
+    "Book-level split followed by 1% paragraph sampling"
+  ],
+  "role": "External transfer evaluation; no CCLUE training samples used."
+}

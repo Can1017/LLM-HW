@@ -1,0 +1,40 @@
+{
+  "news": {
+    "paragraph_id": "19980304-02-002-001",
+    "original_line": "19980304-02-002-001 在 前进 中 开拓 〓 在 开拓 中 前进 —— 全国 政协 八 届 一 次 会议 以来 大事记 ",
+    "line_sha256": "6c635fdc864c3954847d68423c8eaeb89a2450121b5ae628a8f750a102fe1559",
+    "codepoint": "U+3013",
+    "unicode_name": "GETA MARK",
+    "source_encoding": "gb18030",
+    "source_bytes_hex": "a1fe",
+    "meaning": "GETA MARK; used as a missing/unrepresentable character placeholder; intended original title character unconfirmed"
+  },
+  "cclue": {
+    "source_url": "https://raw.githubusercontent.com/Ethan-yt/CCLUE/ed481c453c1c36397f86905a2bda625ecc5607e1/data/punctuation/test.txt",
+    "source_sha256": "b364aee5a5ee03817aad25f0553f024b2b416b8cfdf16cc8af394efd50652ab1",
+    "source_line_number": 129026,
+    "source_rows": [
+      "七 O O O O",
+      "月 B B-, O O",
+      "嘉 O O O O",
+      "禾 O O O O",
+      "生 O O O O",
+      "巴 O O O O",
+      "东 O O O O",
+      "朐 O O O O",
+      " B B-, O O",
+      "荆 O O O O",
+      "州 O O O O",
+      "刺 O O O O",
+      "史 O O O O",
+      "南 O O O O",
+      "谯 O O O O",
+      "王 O O O O",
+      "义 O O O O"
+    ],
+    "codepoint": "U+E583",
+    "unicode_category": "Co",
+    "meaning": "Private-use character; no universal glyph/meaning without the originating font or mapping"
+  },
+  "presentation": "Yellow square at the original position, with codepoint caption. Original stored inputs, labels and model weights preserved."
+}

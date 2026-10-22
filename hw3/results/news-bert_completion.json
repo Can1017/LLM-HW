@@ -1,0 +1,8 @@
+{
+  "epochs_completed": 3,
+  "optimizer_steps": 6237,
+  "elapsed_seconds": 4770.328754600021,
+  "best_validation_micro_f1": 0.8187526643853767,
+  "checkpoint": "D:\\PostGraduate\\LLM\\hw3\\models\\news-bert",
+  "training_articles": 14864
+}

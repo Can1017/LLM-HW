@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "archive_unchanged": true,
+  "disjoint_article_splits": true,
+  "epochs_completed": 3,
+  "optimizer_steps": 6237,
+  "checkpoint_epoch": 3,
+  "prediction_metrics_recomputed": {
+    "news": {
+      "samples": 1871,
+      "scored_positions": 1106476,
+      "recomputed_micro_f1": 0.8172218504675948
+    },
+    "cclue": {
+      "samples": 3992,
+      "scored_positions": 417786,
+      "recomputed_micro_f1": 0.5993517161760135
+    },
+    "lunyu_paragraphs": {
+      "samples": 512,
+      "scored_positions": 15915,
+      "recomputed_micro_f1": 0.6487708392201187
+    },
+    "lunyu_chapters": {
+      "samples": 20,
+      "scored_positions": 15915,
+      "recomputed_micro_f1": 0.6190675017397356
+    }
+  },
+  "benchmark_configurations": 20,
+  "repeats_per_configuration": 5,
+  "figures": 10,
+  "example_figures": 12,
+  "unchanged_news_checkpoint_after_lunyu": true
+}
