@@ -1,0 +1,15 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Course material and downloaded upstream repositories
+/materials/*
+!/materials/README.md
+/p15-prompt-leakage/research/repos/

@@ -1,0 +1,20 @@
+{
+  "description": "整理时记录的本地第三方语料克隆版本；保留来源，仓库正文不随本作业上传。",
+  "repositories": [
+    {
+      "name": "CL4R1T4S",
+      "url": "https://github.com/elder-plinius/CL4R1T4S.git",
+      "commit": "a4d3da04e63324e794a65500c3e41994fc4ab02e"
+    },
+    {
+      "name": "leaked-system-prompts",
+      "url": "https://github.com/jujumilk3/leaked-system-prompts.git",
+      "commit": "2bffdfe275e5dc4725b23e20c330e036ef438802"
+    },
+    {
+      "name": "system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git",
+      "commit": "162db92f54d717d8ebd12292e155aeef32bb4b3c"
+    }
+  ]
+}
