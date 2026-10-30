@@ -121,15 +121,16 @@ def fig02_dev_quality() -> None:
                 float(r['english_score']),
             )
 
-    fig = plt.figure(figsize=(11.8, 4.4))
+    fig = plt.figure(figsize=(12.8, 5.1))
     gs = fig.add_gridspec(1, 2, width_ratios=[1.05, 1.25], wspace=0.38)
+    fig.subplots_adjust(bottom=0.27)
 
     ax1 = fig.add_subplot(gs[0, 0])
     metrics = [
         ('术语保持分', [orig[f'v{i}']['term'] for i in range(4)]),
         ('关系保持分', [orig[f'v{i}']['relation'] for i in range(4)]),
-        ('英语表达 (/2)', [orig[f'v{i}']['english'] / 2.0 for i in range(4)]),
-        ('自由改写视角 (/8)', [sr_scores[f'v{i}'] / 8.0 for i in range(4)]),
+        ('英语表达\n(/2)', [orig[f'v{i}']['english'] / 2.0 for i in range(4)]),
+        ('自由改写视角\n(/8)', [sr_scores[f'v{i}'] / 8.0 for i in range(4)]),
     ]
     x = np.arange(len(metrics)) * 1.15
     width = 0.21
@@ -139,9 +140,9 @@ def fig02_dev_quality() -> None:
         offset = (idx - 1.5) * width
         bars = ax1.bar(x + offset, vals, width=width * 0.92, color=COLORS[idx], label=v_label, edgecolor='white', lw=0.5)
         for b, val in zip(bars, vals):
-            dy = 0.010 if idx % 2 == 0 else 0.024
-            ax1.text(b.get_x() + b.get_width() / 2, val + dy, f'{val:.2f}',
-                     ha='center', va='bottom', fontsize=7.3, color=COLORS[idx], fontweight='bold')
+            ax1.text(b.get_x() + b.get_width() / 2, val + 0.010, f'{val:.2f}',
+                     ha='center', va='bottom', rotation=90, fontsize=7.3,
+                     color=COLORS[idx], fontweight='bold')
 
     ax1.set_xticks(x, [m[0] for m in metrics], fontsize=8.8)
     ax1.set_ylim(0.65, 1.11)
@@ -149,7 +150,7 @@ def fig02_dev_quality() -> None:
     ax1.set_title('(a) 开发集四种提示方案的多维质量均值对比', fontsize=10.2, fontweight='bold', pad=10)
     ax1.grid(axis='y', alpha=0.2)
     ax1.set_axisbelow(True)
-    ax1.legend(loc='upper center', bbox_to_anchor=(0.5, -0.13), frameon=False, fontsize=8.2, ncol=4)
+    ax1.legend(loc='upper center', bbox_to_anchor=(0.5, -0.24), frameon=False, fontsize=8.2, ncol=2)
 
     ax2 = fig.add_subplot(gs[0, 1])
     poem_ids = [f'T0{i}' for i in range(1, 9)]
@@ -244,7 +245,7 @@ def fig04_sensitivity_and_stability() -> None:
     orig_test = audit['original']['test']
     sens_test = audit['sensitivity']['test_consistent_ambiguity']
 
-    fig, axes = plt.subplots(1, 3, figsize=(11.2, 3.6), gridspec_kw={'width_ratios': [1.18, 0.88, 1.22]})
+    fig, axes = plt.subplots(1, 3, figsize=(12.4, 4.5), gridspec_kw={'width_ratios': [1.18, 0.88, 1.22]})
 
     # Panel A: Dev term sensitivity
     ax = axes[0]
@@ -262,7 +263,7 @@ def fig04_sensitivity_and_stability() -> None:
     ax.set_ylim(0.75, 1.07)
     ax.set_ylabel('归一化得分（纵轴自 0.75 起）', fontsize=9)
     ax.set_title('(a) 开发集术语分对异译口径的敏感性', fontsize=10, fontweight='bold')
-    ax.legend(loc='lower right', frameon=True, fontsize=7.8)
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.22), frameon=False, fontsize=7.8)
     ax.grid(axis='y', alpha=0.2)
     ax.set_axisbelow(True)
 
@@ -280,7 +281,7 @@ def fig04_sensitivity_and_stability() -> None:
     ax.set_xticks(xx, ['直接翻译基线', '加入参考注释'], fontsize=8.8)
     ax.set_ylim(0.75, 1.07)
     ax.set_title('(b) 测试集关系分随歧义标准统一持平', fontsize=10, fontweight='bold')
-    ax.legend(loc='lower right', frameon=True, fontsize=7.8)
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.22), frameon=False, fontsize=7.8)
     ax.grid(axis='y', alpha=0.2)
     ax.set_axisbelow(True)
 
@@ -318,11 +319,12 @@ def fig04_sensitivity_and_stability() -> None:
     ax.set_ylim(0.0, 1.18)
     ax.set_ylabel('关键项得分（3 次采样均值与极差）', fontsize=8.5)
     ax.set_title('(c) 3 次重复采样的均值与波动范围', fontsize=10, fontweight='bold')
-    ax.legend(loc='lower right', frameon=True, fontsize=7.4, ncol=2)
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.22), frameon=False, fontsize=7.4, ncol=2)
     ax.grid(axis='y', alpha=0.2)
     ax.set_axisbelow(True)
 
-    fig.tight_layout(w_pad=1.6)
+    # Reserve a separate footer for legends, below even the two-line tick labels.
+    fig.tight_layout(w_pad=1.6, rect=(0, 0.23, 1, 1))
     save(fig, '04_争议评分敏感性')
 
 
@@ -331,7 +333,7 @@ def fig05_supplement_ablation() -> None:
     s_diag = supp['summaries']['diagnostic']
     s_new = supp['summaries']['new']
 
-    fig, axes = plt.subplots(1, 3, figsize=(11.0, 3.5))
+    fig, axes = plt.subplots(1, 3, figsize=(12.0, 4.5))
     conds = ['a0', 'a1', 'a2']
     cond_labels = ['无注释', '单条核心注释', '完整词表注释']
     x = np.arange(3)
@@ -351,7 +353,7 @@ def fig05_supplement_ablation() -> None:
     ax.set_ylim(0, 1.18)
     ax.set_ylabel('归一化得分', fontsize=9)
     ax.set_title('(a) 注释消融：术语与关系均达满分', fontsize=10, fontweight='bold')
-    ax.legend(loc='lower right', frameon=True, fontsize=7.6)
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.20), frameon=False, fontsize=7.6)
     ax.grid(axis='y', alpha=0.2)
     ax.set_axisbelow(True)
 
@@ -369,7 +371,7 @@ def fig05_supplement_ablation() -> None:
     ax.set_ylim(0, 7.2)
     ax.set_ylabel('总 Token 消耗（千 Token）', fontsize=9)
     ax.set_title('(b) 两组诗词的 Token 消耗对比', fontsize=10, fontweight='bold')
-    ax.legend(loc='upper left', frameon=True, fontsize=7.6)
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.20), frameon=False, fontsize=7.6)
     ax.grid(axis='y', alpha=0.2)
     ax.set_axisbelow(True)
 
@@ -387,11 +389,11 @@ def fig05_supplement_ablation() -> None:
     ax.set_ylim(0, 1.24)
     ax.set_ylabel('比例 / 归一化行数', fontsize=9)
     ax.set_title('(c) 尾注触发率与尾注行数膨胀', fontsize=10, fontweight='bold')
-    ax.legend(loc='upper left', frameon=True, fontsize=7.6)
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.20), frameon=False, fontsize=7.6)
     ax.grid(axis='y', alpha=0.2)
     ax.set_axisbelow(True)
 
-    fig.tight_layout(w_pad=1.6)
+    fig.tight_layout(w_pad=1.6, rect=(0, 0.23, 1, 1))
     save(fig, '05_单条注释消融结果')
 
 
