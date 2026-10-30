@@ -1,0 +1,34 @@
+{
+  "tag": "test",
+  "seed": 20261031,
+  "items": [
+    {
+      "rid": "R001",
+      "original_blind_id": "B012",
+      "run_key": "T10-v2-r2",
+      "poem_id": "T10",
+      "version": "v2"
+    },
+    {
+      "rid": "R002",
+      "original_blind_id": "B016",
+      "run_key": "T09-v0-r1",
+      "poem_id": "T09",
+      "version": "v0"
+    },
+    {
+      "rid": "R003",
+      "original_blind_id": "B003",
+      "run_key": "T09-v0-r2",
+      "poem_id": "T09",
+      "version": "v0"
+    },
+    {
+      "rid": "R004",
+      "original_blind_id": "B010",
+      "run_key": "T10-v2-r1",
+      "poem_id": "T10",
+      "version": "v2"
+    }
+  ]
+}

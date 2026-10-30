@@ -16,7 +16,7 @@ LLM-HW/
 | HW1 | [环境与运行](https://github.com/Can1017/LLM-HW/blob/main/hw1/README.md) | [n-gram 实验报告](https://github.com/Can1017/LLM-HW/blob/main/hw1/作业报告.md) |
 | HW2 | [环境与运行](https://github.com/Can1017/LLM-HW/blob/main/hw2/README.md) | [Gensim 与 FastText 实验报告](https://github.com/Can1017/LLM-HW/blob/main/hw2/docs/P137实验报告.md) |
 | HW3 | [环境与运行](https://github.com/Can1017/LLM-HW/blob/main/hw3/README.md) | [BERT 断句标点实验报告](https://github.com/Can1017/LLM-HW/blob/main/hw3/作业报告.md) |
-| HW4 | [题目与工作区](https://github.com/Can1017/LLM-HW/blob/main/hw4/README.md) | [P15 泄露提示词研究报告](https://github.com/Can1017/LLM-HW/blob/main/hw4/p15-prompt-leakage/研究报告_泄露提示词与越狱.md)；[P89 诗词英译工作区](https://github.com/Can1017/LLM-HW/tree/main/hw4/p89-poetry-translation) |
+| HW4 | [题目与工作区](https://github.com/Can1017/LLM-HW/blob/main/hw4/README.md) | [P15 泄露提示词研究报告](https://github.com/Can1017/LLM-HW/blob/main/hw4/p15-prompt-leakage/研究报告_泄露提示词与越狱.md)；[P89 诗词英译研究报告](https://github.com/Can1017/LLM-HW/blob/main/hw4/p89-poetry-translation/reports/研究报告_唐诗宋词英译提示对照.md) |
 
 获取完整代码及 KenLM 子模块：
 

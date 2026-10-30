@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mqm",
+    "url": "https://aclanthology.org/2021.tacl-1.87/",
+    "final_url": "https://aclanthology.org/2021.tacl-1.87/",
+    "status": 200,
+    "title": "Experts, Errors, and Context: A Large-Scale Study of Human Evaluation for Machine Translation - ACL Anthology",
+    "accessed": "2026-10-29",
+    "excerpt": "Abstract Correct abstract if needed. Retain XML formatting tags such as <tex-math>. You may use <b>...</b> for bold , <i>...</i> for italic , <u>...</u> for underline , <sc>...</sc> for small-caps , <tt>...<tt> for typewriter text , <url>...</url> for URLs, <a href=...> for hyperlinks, and <par/> for paragraph breaks. Verification against PDF Ensure that the new title/authors match the snapshot below. (If there is no snapshot or it is too small, consult the PDF .) Authors concatenated from the text boxes above: ALL author names match the snapshot above—including middle initials, hyphens, and accents. Create GitHub issue for staff review Abstract Human evaluation of modern high-quality machine translation systems is a difficult problem, and there is increasing evidence that inadequate evaluation procedures can lead to erroneous conclusions. While there has been considerable research on hu"
+  },
+  {
+    "id": "judge",
+    "url": "https://arxiv.org/abs/2306.05685",
+    "final_url": "https://arxiv.org/abs/2306.05685",
+    "status": 200,
+    "title": "[2306.05685] Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "accessed": "2026-10-29",
+    "excerpt": "Abstract: Evaluating large language model (LLM) based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong LLMs as judges to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. We then verify the agreement between LLM judges and human preferences by introducing two benchmarks: MT-bench, a multi-turn question set; and Chatbot Arena, a crowdsourced battle platform. Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans. Hence, LLM-as"
+  },
+  {
+    "id": "stats",
+    "url": "https://aclanthology.org/P18-1128/",
+    "final_url": "https://aclanthology.org/P18-1128/",
+    "status": 200,
+    "title": "The Hitchhiker’s Guide to Testing Statistical Significance in Natural Language Processing - ACL Anthology",
+    "accessed": "2026-10-29",
+    "excerpt": "Abstract Correct abstract if needed. Retain XML formatting tags such as <tex-math>. You may use <b>...</b> for bold , <i>...</i> for italic , <u>...</u> for underline , <sc>...</sc> for small-caps , <tt>...<tt> for typewriter text , <url>...</url> for URLs, <a href=...> for hyperlinks, and <par/> for paragraph breaks. Verification against PDF Ensure that the new title/authors match the snapshot below. (If there is no snapshot or it is too small, consult the PDF .) Authors concatenated from the text boxes above: ALL author names match the snapshot above—including middle initials, hyphens, and accents. Create GitHub issue for staff review Abstract Statistical significance testing is a standard statistical tool designed to ensure that experimental results are not coincidental. In this opinion/ theoretical paper we discuss the role of statistical significance testing in Natural Language Proc"
+  },
+  {
+    "id": "prompt",
+    "url": "https://arxiv.org/abs/2406.06608",
+    "final_url": "https://arxiv.org/abs/2406.06608",
+    "status": 200,
+    "title": "[2406.06608] The Prompt Report: A Systematic Survey of Prompt Engineering Techniques",
+    "accessed": "2026-10-29",
+    "excerpt": "Abstract: Generative Artificial Intelligence (GenAI) systems are increasingly being deployed across diverse industries and research domains. Developers and end-users interact with these systems through the use of prompting and prompt engineering. Although prompt engineering is a widely adopted and extensively researched area, it suffers from conflicting terminology and a fragmented ontological understanding of what constitutes an effective prompt due to its relatively recent emergence. We establish a structured understanding of prompt engineering by assembling a taxonomy of prompting techniques and analyzing their applications. We present a detailed vocabulary of 33 vocabulary terms, a taxonomy of 58 LLM prompting techniques, and 40 techniques for other modalities. Additionally, we provide best practices and guidelines for prompt engineering, including advice for prompting state-of-the-a"
+  },
+  {
+    "id": "fengqiao",
+    "url": "https://zh.wikisource.org/wiki/楓橋夜泊",
+    "final_url": "https://zh.wikisource.org/wiki/%E6%A5%93%E6%A9%8B%E5%A4%9C%E6%B3%8A",
+    "status": 200,
+    "title": "楓橋夜泊 - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": "月落烏啼霜滿天，江楓漁火對愁眠。 姑蘇城外寒山寺，夜半鐘聲到客船。 此唐朝作品在全世界都属于 公有领域 ，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。 Public domain Public domain false false 取自“ https://zh.wikisource.org/w/index.php?title=楓橋夜泊&oldid=1748066 ” 分类 ： 75% 唐朝 張繼 唐诗 七言絕句 千家詩 此页面最后编辑于2019年10月15日 (星期二) 13:46。 本站的全部文字在 知识共享 署名-相同方式共享 4.0协议 之条款下提供，附加条款亦可能应用。（请参阅 使用条款 ） 在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（ 详情 ）。 Wikisource®和维基文库标志是 维基媒体基金会 的注册商标；维基™是维基媒体基金会的商标。 维基媒体基金会是在美国佛罗里达州登记的501(c)(3) 免税 、非营利、慈善机构。 隐私政策 关于维基文库 免责声明 法律与安全事项联系方式 行为准则 开发者 统计 Cookie声明 移动版视图 搜索 搜索 楓橋夜泊 1种语言 添加话题 "
+  },
+  {
+    "id": "shangshan",
+    "url": "https://zh.wikisource.org/wiki/商山早行",
+    "final_url": "https://zh.wikisource.org/wiki/%E5%95%86%E5%B1%B1%E6%97%A9%E8%A1%8C",
+    "status": 200,
+    "title": "商山早行 - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": "晨起動征鐸，客行悲故鄉。 雞聲茅店月，人跡板橋霜。 槲葉落山路，枳花 明 一作「照」 驛牆。 因思杜陵夢，鳧雁滿回塘。 此唐朝作品在全世界都属于 公有领域 ，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。 Public domain Public domain false false 取自“ https://zh.wikisource.org/w/index.php?title=商山早行&oldid=2602610 ” 分类 ： 50% 溫庭筠 唐朝 此页面最后编辑于2025年10月2日 (星期四) 15:12。 本站的全部文字在 知识共享 署名-相同方式共享 4.0协议 之条款下提供，附加条款亦可能应用。（请参阅 使用条款 ） 在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（ 详情 ）。 Wikisource®和维基文库标志是 维基媒体基金会 的注册商标；维基™是维基媒体基金会的商标。 维基媒体基金会是在美国佛罗里达州登记的501(c)(3) 免税 、非营利、慈善机构。 隐私政策 关于维基文库 免责声明 法律与安全事项联系方式 行为准则 开发者 统计 Cookie声明 移动版视图 搜索 搜索 商山早行 添加语言 添加话题 "
+  },
+  {
+    "id": "zhuli",
+    "url": "https://zh.wikisource.org/wiki/竹里館",
+    "final_url": "https://zh.wikisource.org/wiki/%E7%AB%B9%E9%87%8C%E9%A4%A8",
+    "status": 200,
+    "title": "竹里館 - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": " 竹里館 - 维基文库，自由的图书馆 跳转到内容 主菜单 主菜单 移至侧栏 隐藏 导航 首页 随机作品 随机作者 随机原本 所有页面 编者 社群首页 写字间 最近更改 特殊页面 帮助 帮助 关于维基文库 联系我们 方针与指引 显示选项 搜索 搜索 外观 资助 创建账号 登录 个人工具 资助 创建账号 登录 竹里館 添加语言 添加链接 作品 讨论 不转换 不转换 简体 繁體 阅读 编辑 查看历史 工具 工具 移至侧栏 隐藏 操作 阅读 编辑 查看历史 常规 链入页面 相关更改 上传文件 固定链接 页面信息 引用此页 获取短链接 打印/导出 可打印版 下载为EPUB 下载为MOBI 下载为PDF 其他格式 在其他项目中 维基数据项目 外观 移至侧栏 隐藏 維基文庫，自由的圖書館 竹里館 消歧义页 這是一個 消歧義 頁——使用相同或相近標題，而主題不同的條目列表。如果您是通過某個 内部鏈接 轉到本頁，希望您能協助將該內部鏈接指向正確的主條目。 姊妹计划 : 数据项 竹里館 可以指： 竹里館 ，盧象 竹里館 ，王維 竹里館 ，裴迪 取自“ https://zh.wikisource.org/w/index.php?title=竹里館&oldid=94767 ” 分类 ： 消歧义 此页面最后编辑于2008年4月7日 (星期一) 15:01。 本站的全部文字在 知识共享 署名-相同方式共享 4.0协议 之条款下提供，附加条款亦可能应用。（请参阅 使用条款 ） 在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（ 详情 ）。 Wikisource®和维基文库标志是 维基媒体基金会 的注册商标；维基™是维基媒体基金会的商标。 维基媒体基金会是在美国佛罗里达州登记的501(c)(3) 免税 、非营利、慈善机构。 隐私政策 关于维基文库 免责声明 法律与安全事项联系方式 行为准则 开发者 统计 Cookie声明 移动版视图 搜索 搜索 竹里館 添加语言 添加话题 "
+  },
+  {
+    "id": "guanque",
+    "url": "https://zh.wikisource.org/wiki/登鸛雀樓",
+    "final_url": "https://zh.wikisource.org/wiki/%E7%99%BB%E9%B8%9B%E9%9B%80%E6%A8%93",
+    "status": 200,
+    "title": "登鸛雀樓 - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": " 登鸛雀樓 - 维基文库，自由的图书馆 跳转到内容 主菜单 主菜单 移至侧栏 隐藏 导航 首页 随机作品 随机作者 随机原本 所有页面 编者 社群首页 写字间 最近更改 特殊页面 帮助 帮助 关于维基文库 联系我们 方针与指引 显示选项 搜索 搜索 外观 资助 创建账号 登录 个人工具 资助 创建账号 登录 登鸛雀樓 添加语言 添加链接 作品 讨论 不转换 不转换 简体 繁體 阅读 编辑 查看历史 工具 工具 移至侧栏 隐藏 操作 阅读 编辑 查看历史 常规 链入页面 相关更改 上传文件 固定链接 页面信息 引用此页 获取短链接 打印/导出 可打印版 下载为EPUB 下载为MOBI 下载为PDF 其他格式 在其他项目中 维基数据项目 外观 移至侧栏 隐藏 維基文庫，自由的圖書館 登鸛雀樓 消歧义页 這是一個 消歧義 頁——使用相同或相近標題，而主題不同的條目列表。如果您是通過某個 内部鏈接 轉到本頁，希望您能協助將該內部鏈接指向正確的主條目。 姊妹计划 : 数据项 登鸛雀樓 可以指： 登鸛雀樓 (王之渙) 登鸛雀樓 (耿湋) 登鸛雀樓 (暢當) 登鸛雀樓 (吳融) 取自“ https://zh.wikisource.org/w/index.php?title=登鸛雀樓&oldid=2014284 ” 分类 ： 消歧义 此页面最后编辑于2021年1月19日 (星期二) 14:33。 本站的全部文字在 知识共享 署名-相同方式共享 4.0协议 之条款下提供，附加条款亦可能应用。（请参阅 使用条款 ） 在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（ 详情 ）。 Wikisource®和维基文库标志是 维基媒体基金会 的注册商标；维基™是维基媒体基金会的商标。 维基媒体基金会是在美国佛罗里达州登记的501(c)(3) 免税 、非营利、慈善机构。 隐私政策 关于维基文库 免责声明 法律与安全事项联系方式 行为准则 开发者 统计 Cookie声明 移动版视图 搜索 搜索 登鸛雀樓 添加语言 添加话题 "
+  },
+  {
+    "id": "night_rain",
+    "url": "https://zh.wikisource.org/wiki/夜雨寄北",
+    "final_url": "https://zh.wikisource.org/wiki/%E5%A4%9C%E9%9B%A8%E5%AF%84%E5%8C%97",
+    "status": 200,
+    "title": "夜雨寄北 - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": "君問歸期未有期 巴山夜雨漲秋池 何 當 一作「時」 共剪西窗燭 卻話巴山夜雨時 君問歸期未有期 巴山夜雨漲秋池 何當共剪西窗燭 [ 1 ] 卻話巴山夜雨時 ↑ 「何當」：《墨莊漫録》及《浄徳集》均作「何時」 此唐朝作品在全世界都属于 公有领域 ，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。 Public domain Public domain false false 取自“ https://zh.wikisource.org/w/index.php?title=夜雨寄北&oldid=1566402 ” 分类 ： 75% 唐朝 李商隱 唐诗 唐诗三百首 詠懷詩 此页面最后编辑于2019年5月23日 (星期四) 15:04。 本站的全部文字在 知识共享 署名-相同方式共享 4.0协议 之条款下提供，附加条款亦可能应用。（请参阅 使用条款 ） 在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（ 详情 ）。 Wikisource®和维基文库标志是 维基媒体基金会 的注册商标；维基™是维基媒体基金会的商标。 维基媒体基金会是在美国佛罗里达州登记的501(c)(3) 免税 、非营利、慈善机构。 隐私政策 关于维基文库 免责声明 法律与安全事项联系方式 行为准则 开发者 统计 Cookie声明 移动版视图 搜索 搜索 夜雨寄北 添加语言 添加话题 "
+  },
+  {
+    "id": "shengshengman",
+    "url": "https://zh.wikisource.org/wiki/聲聲慢_(尋尋覓覓)",
+    "error": "HTTP Error 404: Not Found",
+    "accessed": "2026-10-29"
+  },
+  {
+    "id": "repository",
+    "url": "https://github.com/Can1017/LLM-HW",
+    "final_url": "https://github.com/Can1017/LLM-HW",
+    "status": 200,
+    "title": "GitHub - Can1017/LLM-HW: LLM 课程实验作业 · GitHub",
+    "accessed": "2026-10-29",
+    "excerpt": " GitHub - Can1017/LLM-HW: LLM 课程实验作业 · GitHub Skip to content Navigation Menu Sign in Products Platform GitHub Repository hosting, code review, and collaboration Copilot AI coding agent for tasks, projects and automated work Build & Ship Actions CI/CD and automation Code Quality Quality analysis, fixes, and enforcement Codespaces Cloud development environments Secure Code Security Vulnerability detection and remediation Secret Protection Secret scanning and leak prevention All Features Developers Learn Documentation Training Certifications Build Build with Copilot Customize Copilot Integrations Explore Trending repos GitHub Sponsors Events Changelog Changelog Your source for the latest features, improvements, and fixes across GitHub products, all in one place. Businesses By Stage Enterprises Team Startups Nonprofits By Industry Healthcare Financial services Manufacturing Government See a"
+  },
+  {
+    "id": "guanque_author",
+    "url": "https://zh.wikisource.org/wiki/登鸛雀樓_(王之渙)",
+    "status": 200,
+    "title": "登鸛雀樓 (王之渙) - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": "白日依山盡，黃河入海流。     [ 1 ]       \n欲窮千里目，更上一  層 一作「重」  樓。\n \n \n  \n        汉语普通话朗读  \n .mw-parser-output .licenseContainer{box-sizing:border-box;margin-top:1em;margin-bottom:0.25em;clear:both;width:auto;page-break-before:always;break-before:page}.mw-parser-output .licenseContainer>div:first-of-type{display:table;border:2px solid var(--border-subtle,#8888aa"
+  },
+  {
+    "id": "zhuli_author",
+    "url": "https://zh.wikisource.org/wiki/竹里館_(王維)",
+    "status": 200,
+    "title": "輞川集 (王維)/竹里館 - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": "獨坐幽篁裏，彈琴復長嘯。 \n深林人不知，明月來相照。\n \n \n  \n \n .mw-parser-output .licenseContainer{box-sizing:border-box;margin-top:1em;margin-bottom:0.25em;clear:both;width:auto;page-break-before:always;break-before:page}.mw-parser-output .licenseContainer>div:first-of-type{display:table;border:2px solid var(--border-subtle,#8888aa);border-collapse:collapse;border-spacing:"
+  },
+  {
+    "id": "li_qingzhao",
+    "url": "https://zh.wikisource.org/wiki/聲聲慢_(李清照)",
+    "status": 200,
+    "title": "聲聲慢 (李清照) - 维基文库，自由的图书馆",
+    "accessed": "2026-10-29",
+    "excerpt": "尋尋覓覓，冷冷清清， .mw-parser-output .variant-text{color:light-dark(black,white);border-bottom:1px dotted red;background:light-dark(linen,#311);cursor:pointer;position:relative}.mw-parser-output .variant-tooltip{display:none;position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:3px 8px;border-radius:4px;white-"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "tag": "dev",
+  "seed": 20261031,
+  "items": [
+    {
+      "rid": "R001",
+      "original_blind_id": "B031",
+      "run_key": "T01-v3-r1",
+      "poem_id": "T01",
+      "version": "v3"
+    },
+    {
+      "rid": "R002",
+      "original_blind_id": "B016",
+      "run_key": "T02-v3-r1",
+      "poem_id": "T02",
+      "version": "v3"
+    },
+    {
+      "rid": "R003",
+      "original_blind_id": "B020",
+      "run_key": "T01-v1-r1",
+      "poem_id": "T01",
+      "version": "v1"
+    },
+    {
+      "rid": "R004",
+      "original_blind_id": "B001",
+      "run_key": "T01-v0-r1",
+      "poem_id": "T01",
+      "version": "v0"
+    },
+    {
+      "rid": "R005",
+      "original_blind_id": "B011",
+      "run_key": "T02-v1-r1",
+      "poem_id": "T02",
+      "version": "v1"
+    },
+    {
+      "rid": "R006",
+      "original_blind_id": "B007",
+      "run_key": "T02-v2-r1",
+      "poem_id": "T02",
+      "version": "v2"
+    },
+    {
+      "rid": "R007",
+      "original_blind_id": "B012",
+      "run_key": "T02-v0-r1",
+      "poem_id": "T02",
+      "version": "v0"
+    },
+    {
+      "rid": "R008",
+      "original_blind_id": "B030",
+      "run_key": "T01-v2-r1",
+      "poem_id": "T01",
+      "version": "v2"
+    }
+  ]
+}

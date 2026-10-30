@@ -1,0 +1,46 @@
+{
+  "started_at": "2026-10-29T15:20:45+08:00",
+  "model_requested": "deepseek-v4.1-flash-1017",
+  "temperature": 0.2,
+  "max_tokens": 12000,
+  "retries": 3,
+  "reps": 2,
+  "seed": 20261029,
+  "order": "random",
+  "poems": [
+    "T01",
+    "T04",
+    "T07"
+  ],
+  "versions": [
+    "v0",
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "output": "D:\\PostGraduate\\LLM\\hw4\\p89-poetry-translation\\results\\stability_dev.jsonl",
+  "argv": [
+    "p89-poetry-translation/harness/run_experiment.py",
+    "--poems",
+    "T01,T04,T07",
+    "--versions",
+    "v0,v1,v2,v3",
+    "--reps",
+    "2",
+    "--order",
+    "random",
+    "--max-tokens",
+    "12000",
+    "--out",
+    "results/stability_dev.jsonl"
+  ],
+  "gateway_host": "chat.pku.edu.cn",
+  "prompt_hashes": {
+    "base": "cf52f6b167d16e8d611bd579598e47ba65fdd1f795865610dcbacfc3ef7db3ea",
+    "v1_criteria": "2b242c2b04c634c14ae584ce5bc8b8ba7bd0efa8fa105aabcb06ddfe4821a7fd",
+    "v3_examples": "5356ed807bd261224d36722f443d15849c7fc634dce718c24ceabce22271c949"
+  },
+  "data_sha256": "be9e599a81244dc289e4a6b8736b6bff0f84e1c1146eb3479b278fdca9b195f8",
+  "render_sha256": "65c19c1b4897175ac223c09b279b2aa1200ba80e3ff6f64d91fcf60304c32701",
+  "run_script_sha256": "07c8ea26f1ce3c227dd40cea061e3846a7fd9e00f8d8038182f5b2bcfd4eed0d"
+}

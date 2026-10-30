@@ -5,7 +5,7 @@
 | 题目 | 状态 | 工作区 |
 | --- | --- | --- |
 | P15：泄露提示词与越狱方法研究 | 已完成，含报告、研究记录、脚本和原始结果 | [第一题](p15-prompt-leakage/README.md) |
-| P89：唐诗宋词英译提示对照实验 | 待开展，已预留工作区 | [第二题](p89-poetry-translation/README.md) |
+| P89：唐诗宋词英译提示对照实验 | 已完成，含最终报告、四阶段记录、脚本与原始结果 | [第二题](p89-poetry-translation/README.md) |
 
 ```text
 hw4/

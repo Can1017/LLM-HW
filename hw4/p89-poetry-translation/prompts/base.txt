@@ -1,0 +1,3 @@
+Translate the following Chinese poem into English.
+
+Output: the English translation. If you add endnotes for culture-specific terms, place them after the translation under a short "Notes" heading. Do not repeat the title or author in the output. Do not add any other commentary.

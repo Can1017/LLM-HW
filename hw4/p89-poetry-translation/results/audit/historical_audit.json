@@ -1,0 +1,380 @@
+{
+  "checks": [
+    {
+      "batch": "main_dev",
+      "n": 32,
+      "prompt_hashes_valid": true,
+      "config_hashes": {
+        "data": true,
+        "render": true,
+        "run_script": true
+      }
+    },
+    {
+      "batch": "stability_dev",
+      "n": 24,
+      "prompt_hashes_valid": true,
+      "config_hashes": {
+        "data": true,
+        "render": true,
+        "run_script": true
+      }
+    },
+    {
+      "batch": "test_holdout",
+      "n": 16,
+      "prompt_hashes_valid": true,
+      "config_hashes": {
+        "data": true,
+        "render": true,
+        "run_script": true
+      }
+    }
+  ],
+  "coverage": {
+    "dev": {
+      "n": 8,
+      "poems": [
+        "T01",
+        "T02"
+      ]
+    },
+    "test": {
+      "n": 4,
+      "poems": [
+        "T09",
+        "T10"
+      ]
+    }
+  },
+  "original": {
+    "dev": {
+      "v0": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.8645833333333334,
+        "relation": 0.9583333333333334,
+        "english": 2,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 4,
+        "format_pass": 1,
+        "prompt_tokens": 1187,
+        "completion_tokens": 5402,
+        "reasoning_tokens": 4935,
+        "visible_tokens_estimate": 467,
+        "total_tokens": 6589,
+        "latency_sec": 66.01
+      },
+      "v1": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.9479166666666666,
+        "relation": 1.0,
+        "english": 1.625,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 2,
+        "format_pass": 1,
+        "prompt_tokens": 2763,
+        "completion_tokens": 13658,
+        "reasoning_tokens": 13160,
+        "visible_tokens_estimate": 498,
+        "total_tokens": 16421,
+        "latency_sec": 151.88299999999998
+      },
+      "v2": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.96875,
+        "relation": 0.9791666666666666,
+        "english": 2,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 2,
+        "format_pass": 1,
+        "prompt_tokens": 1630,
+        "completion_tokens": 10001,
+        "reasoning_tokens": 9425,
+        "visible_tokens_estimate": 576,
+        "total_tokens": 11631,
+        "latency_sec": 108.09100000000001
+      },
+      "v3": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.8854166666666666,
+        "relation": 1.0,
+        "english": 2,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 3,
+        "format_pass": 1,
+        "prompt_tokens": 2459,
+        "completion_tokens": 5462,
+        "reasoning_tokens": 5015,
+        "visible_tokens_estimate": 447,
+        "total_tokens": 7921,
+        "latency_sec": 71.67200000000001
+      }
+    },
+    "test": {
+      "v0": {
+        "n": 8,
+        "poems": 4,
+        "term": 1.0,
+        "relation": 0.9583333333333334,
+        "english": 1.75,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 2,
+        "format_pass": 1,
+        "prompt_tokens": 1268,
+        "completion_tokens": 7876,
+        "reasoning_tokens": 7228,
+        "visible_tokens_estimate": 648,
+        "total_tokens": 9144,
+        "latency_sec": 80.312
+      },
+      "v2": {
+        "n": 8,
+        "poems": 4,
+        "term": 1.0,
+        "relation": 1.0,
+        "english": 1.875,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 0,
+        "format_pass": 1,
+        "prompt_tokens": 1744,
+        "completion_tokens": 11341,
+        "reasoning_tokens": 10383,
+        "visible_tokens_estimate": 958,
+        "total_tokens": 13085,
+        "latency_sec": 104.672
+      }
+    }
+  },
+  "sensitivity": {
+    "test_consistent_ambiguity": {
+      "v0": {
+        "n": 8,
+        "poems": 4,
+        "term": 1.0,
+        "relation": 1.0,
+        "english": 1.75,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 0,
+        "format_pass": 1,
+        "prompt_tokens": 1268,
+        "completion_tokens": 7876,
+        "reasoning_tokens": 7228,
+        "visible_tokens_estimate": 648,
+        "total_tokens": 9144,
+        "latency_sec": 80.312
+      },
+      "v2": {
+        "n": 8,
+        "poems": 4,
+        "term": 1.0,
+        "relation": 1.0,
+        "english": 1.875,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 0,
+        "format_pass": 1,
+        "prompt_tokens": 1744,
+        "completion_tokens": 11341,
+        "reasoning_tokens": 10383,
+        "visible_tokens_estimate": 958,
+        "total_tokens": 13085,
+        "latency_sec": 104.672
+      }
+    },
+    "dev_accept_reasonable_translations": {
+      "v0": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.9270833333333334,
+        "relation": 1.0,
+        "english": 2,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 2,
+        "format_pass": 1,
+        "prompt_tokens": 1187,
+        "completion_tokens": 5402,
+        "reasoning_tokens": 4935,
+        "visible_tokens_estimate": 467,
+        "total_tokens": 6589,
+        "latency_sec": 66.01
+      },
+      "v1": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.96875,
+        "relation": 1.0,
+        "english": 1.625,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 2,
+        "format_pass": 1,
+        "prompt_tokens": 2763,
+        "completion_tokens": 13658,
+        "reasoning_tokens": 13160,
+        "visible_tokens_estimate": 498,
+        "total_tokens": 16421,
+        "latency_sec": 151.88299999999998
+      },
+      "v2": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.96875,
+        "relation": 1.0,
+        "english": 2,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 1,
+        "format_pass": 1,
+        "prompt_tokens": 1630,
+        "completion_tokens": 10001,
+        "reasoning_tokens": 9425,
+        "visible_tokens_estimate": 576,
+        "total_tokens": 11631,
+        "latency_sec": 108.09100000000001
+      },
+      "v3": {
+        "n": 8,
+        "poems": 8,
+        "term": 0.9479166666666666,
+        "relation": 1.0,
+        "english": 2,
+        "imagery": 2,
+        "emotion": 2,
+        "major": 0,
+        "minor": 2,
+        "format_pass": 1,
+        "prompt_tokens": 2459,
+        "completion_tokens": 5462,
+        "reasoning_tokens": 5015,
+        "visible_tokens_estimate": 447,
+        "total_tokens": 7921,
+        "latency_sec": 71.67200000000001
+      }
+    }
+  },
+  "transitions": {
+    "dev": {
+      "v1": {
+        "term_scores:1->2": 4,
+        "relation_scores:1->2": 2
+      },
+      "v2": {
+        "term_scores:1->2": 5,
+        "relation_scores:2->1": 1,
+        "relation_scores:1->2": 2
+      },
+      "v3": {
+        "term_scores:2->1": 1,
+        "term_scores:1->2": 2,
+        "relation_scores:1->2": 2
+      }
+    },
+    "test": {
+      "v2": {
+        "relation_scores:1->2": 2
+      }
+    }
+  },
+  "changes": [
+    {
+      "run_key": "T02-v2-r1",
+      "anchor": "T02-R2",
+      "before": 1,
+      "after": 2,
+      "reason": "thousand li 本身不是把夸张误作精确测量的证据"
+    },
+    {
+      "run_key": "T02-v1-r1",
+      "anchor": "T02-T4",
+      "before": 1,
+      "after": 2,
+      "reason": "功能对等异译可接受，不按词典逐字匹配"
+    },
+    {
+      "run_key": "T02-v0-r1",
+      "anchor": "T02-T2",
+      "before": 1,
+      "after": 2,
+      "reason": "功能对等异译可接受，不按词典逐字匹配"
+    },
+    {
+      "run_key": "T02-v0-r1",
+      "anchor": "T02-T3",
+      "before": 1,
+      "after": 2,
+      "reason": "功能对等异译可接受，不按词典逐字匹配"
+    },
+    {
+      "run_key": "T02-v0-r1",
+      "anchor": "T02-T4",
+      "before": 1,
+      "after": 2,
+      "reason": "功能对等异译可接受，不按词典逐字匹配"
+    },
+    {
+      "run_key": "T02-v3-r1",
+      "anchor": "T02-T2",
+      "before": 1,
+      "after": 2,
+      "reason": "功能对等异译可接受，不按词典逐字匹配"
+    },
+    {
+      "run_key": "T02-v3-r1",
+      "anchor": "T02-T3",
+      "before": 1,
+      "after": 2,
+      "reason": "功能对等异译可接受，不按词典逐字匹配"
+    },
+    {
+      "run_key": "T02-v3-r1",
+      "anchor": "T02-T4",
+      "before": 1,
+      "after": 2,
+      "reason": "功能对等异译可接受，不按词典逐字匹配"
+    },
+    {
+      "run_key": "T04-v0-r1",
+      "anchor": "T04-R1",
+      "before": 1,
+      "after": 2,
+      "reason": "When shall we 的范围可覆盖 and talk；承认合理未来回忆读法"
+    },
+    {
+      "run_key": "T04-v0-r1",
+      "anchor": "T04-R3",
+      "before": 1,
+      "after": 2,
+      "reason": "When shall we 的范围可覆盖 and talk；承认合理未来回忆读法"
+    }
+  ],
+  "totals": {
+    "calls": 72,
+    "prompt": 17193,
+    "completion": 82496,
+    "reasoning": 77347,
+    "latency_sec": 911.5150000000001
+  }
+}

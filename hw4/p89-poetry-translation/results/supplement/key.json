@@ -1,0 +1,194 @@
+[
+  {
+    "blind_id": "S01",
+    "run_key": "N02-a0-r1",
+    "poem_id": "N02",
+    "condition": "a0",
+    "rep": 1,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S02",
+    "run_key": "N02-a2-r1",
+    "poem_id": "N02",
+    "condition": "a2",
+    "rep": 1,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S03",
+    "run_key": "D02-a1-r1",
+    "poem_id": "D02",
+    "condition": "a1",
+    "rep": 1,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S04",
+    "run_key": "N01-a0-r1",
+    "poem_id": "N01",
+    "condition": "a0",
+    "rep": 1,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S05",
+    "run_key": "D02-a1-r2",
+    "poem_id": "D02",
+    "condition": "a1",
+    "rep": 2,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S06",
+    "run_key": "N01-a2-r1",
+    "poem_id": "N01",
+    "condition": "a2",
+    "rep": 1,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S07",
+    "run_key": "N01-a0-r2",
+    "poem_id": "N01",
+    "condition": "a0",
+    "rep": 2,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S08",
+    "run_key": "N02-a1-r1",
+    "poem_id": "N02",
+    "condition": "a1",
+    "rep": 1,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S09",
+    "run_key": "D09-a0-r1",
+    "poem_id": "D09",
+    "condition": "a0",
+    "rep": 1,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S10",
+    "run_key": "D09-a2-r2",
+    "poem_id": "D09",
+    "condition": "a2",
+    "rep": 2,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S11",
+    "run_key": "N02-a0-r2",
+    "poem_id": "N02",
+    "condition": "a0",
+    "rep": 2,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S12",
+    "run_key": "D02-a2-r2",
+    "poem_id": "D02",
+    "condition": "a2",
+    "rep": 2,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S13",
+    "run_key": "N01-a1-r2",
+    "poem_id": "N01",
+    "condition": "a1",
+    "rep": 2,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S14",
+    "run_key": "D09-a2-r1",
+    "poem_id": "D09",
+    "condition": "a2",
+    "rep": 1,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S15",
+    "run_key": "D02-a0-r1",
+    "poem_id": "D02",
+    "condition": "a0",
+    "rep": 1,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S16",
+    "run_key": "D09-a0-r2",
+    "poem_id": "D09",
+    "condition": "a0",
+    "rep": 2,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S17",
+    "run_key": "N02-a2-r2",
+    "poem_id": "N02",
+    "condition": "a2",
+    "rep": 2,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S18",
+    "run_key": "D02-a2-r1",
+    "poem_id": "D02",
+    "condition": "a2",
+    "rep": 1,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S19",
+    "run_key": "D02-a0-r2",
+    "poem_id": "D02",
+    "condition": "a0",
+    "rep": 2,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S20",
+    "run_key": "N02-a1-r2",
+    "poem_id": "N02",
+    "condition": "a1",
+    "rep": 2,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S21",
+    "run_key": "N01-a2-r2",
+    "poem_id": "N01",
+    "condition": "a2",
+    "rep": 2,
+    "cohort": "new"
+  },
+  {
+    "blind_id": "S22",
+    "run_key": "D09-a1-r2",
+    "poem_id": "D09",
+    "condition": "a1",
+    "rep": 2,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S23",
+    "run_key": "D09-a1-r1",
+    "poem_id": "D09",
+    "condition": "a1",
+    "rep": 1,
+    "cohort": "diagnostic"
+  },
+  {
+    "blind_id": "S24",
+    "run_key": "N01-a1-r1",
+    "poem_id": "N01",
+    "condition": "a1",
+    "rep": 1,
+    "cohort": "new"
+  }
+]

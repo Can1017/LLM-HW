@@ -1,0 +1,10 @@
+Audience: general English-language readers with no Chinese, encountering classical Chinese poetry in an anthology.
+Purpose: faithful literary translation, not adaptation.
+
+Requirements:
+1. Preserve the sense and sequence of every line; do not merge, omit, or add lines.
+2. Preserve the key images and the relations between them: who acts on whom (including personification), contrasts and antitheses, the scope of negations, and hypothetical or temporal shifts.
+3. Render culture-specific terms so that an English reader can understand them. Keep the original image rather than substituting a different one. Use a brief endnote if necessary.
+4. Do not import images, allusions, or explanations not present in the source; do not paraphrase the poem into prose.
+5. Use natural contemporary literary English; line breaks should follow the source; rhyme is not required.
+6. Keep the emotional stance and degree of explicitness; do not make the poem more sentimental or more explicit than the original.

@@ -1,0 +1,5 @@
+blind_id,poem_id,term_scores,relation_scores,major_errors,minor_errors,notes
+R001,T10,T10-T1:2;T10-T2:2;T10-T3:2,T10-R1:2;T10-R2:2;T10-R3:2,0,0,Negation and auditory inference are clear.
+R002,T09,T09-T1:2;T09-T2:2;T09-T3:2;T09-T4:2,T09-R1:2;T09-R2:2;T09-R3:1,0,1,'face my sorrowful sleep' forces a single reading.
+R003,T09,T09-T1:2;T09-T2:2;T09-T3:2;T09-T4:2,T09-R1:2;T09-R2:2;T09-R3:1,0,1,'face me as I sleep in sorrow' forces a single reading; notes do not flag the ambiguity.
+R004,T10,T10-T1:2;T10-T2:2;T10-T3:2,T10-R1:2;T10-R2:2;T10-R3:2,0,0,Clear and compact.

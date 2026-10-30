@@ -1,0 +1,30 @@
+{
+  "reviewer": "本次会话AI复核者；参与方案设计，非独立人类评审；版本隐藏仅降低直接标签暗示",
+  "scale": "术语与关系各3项0–2；英语0–2；格式0/1；合理单一解读允许满分",
+  "items": {
+    "S01": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"zither、long whistle与孤独及月照方向正确；尾注增加文化背景不计为语义改进。"},
+    "S02": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"qin在尾注说明；无人知晓与月照关系保持，4条尾注非必要。"},
+    "S03": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"take in表达尽览；li的尾注正确，无需逐字exhaust。"},
+    "S04": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"Duling、oak、orange、mallards/geese与梦回故乡均保持。"},
+    "S05": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"sets behind与take in为可接受自然译法，目的手段正确。"},
+    "S06": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"意象并置、旅途乡愁与梦境方向保持；尾注较多但未替代正文。"},
+    "S07": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"Duling为地名并有地区尾注；duck泛称允许，梦与现实未混淆。"},
+    "S08": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"play the qin在尾注中充分解释，关系保持。"},
+    "S09": {"terms":[2,2,2],"relations":[2,2,2],"english":1,"format":1,"major":0,"note":"face my sorrowful sleep搭配生硬，但旅人怀愁而卧的合理读法存在；不能因未并列两种解释扣关系分。"},
+    "S10": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"face the sorrowful sleeper较清楚；景物相对和钟声传递方向正确。"},
+    "S11": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"zither、whistle无需附注已能理解；no one knows I am here与月照正确。"},
+    "S12": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"sinks behind、take in均合理；higher与storey稍重复但不影响流畅。"},
+    "S13": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"植物、水鸟、乡愁与dream of Duling均正确。"},
+    "S14": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"景物面对怀愁旅人的自然表述；核心词义与方向无误。"},
+    "S15": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"thousand miles作为诗性广远表达接受，不当作地理测量题。"},
+    "S16": {"terms":[2,2,2],"relations":[2,2,2],"english":1,"format":1,"major":0,"note":"face my sorrowful sleep生硬；不因此重复扣除关系分。"},
+    "S17": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"完整词义与月照关系正确；附注逐项对应正文不另加分。"},
+    "S18": {"terms":[2,2,2],"relations":[2,2,2],"english":1,"format":1,"major":0,"note":"sun sinks along the mountains搭配不如behind自然；语义可接受，不扣术语分。"},
+    "S19": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"gaze a thousand miles into the distance体现极目远望，登高与远望关系保留。"},
+    "S20": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"strum the qin与whistle可接受，qin有尾注；整体独处氛围保持。"},
+    "S21": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"curving pond、wild ducks/geese与杜陵梦正确；尾注不构成新的译文质量收益。"},
+    "S22": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"face the traveler lying in sorrow语法与景物关系清楚，钟声到船方向正确。"},
+    "S23": {"terms":[2,2,2],"relations":[2,2,2],"english":1,"format":1,"major":0,"note":"the sorrowful traveler lying down偏长且生硬，但词义与关系正确；英语分属主观判断。"},
+    "S24": {"terms":[2,2,2],"relations":[2,2,2],"english":2,"format":1,"major":0,"note":"Duling地区有注，dream明确故乡想象；各意象保持。"}
+  }
+}

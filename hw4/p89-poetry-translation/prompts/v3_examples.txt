@@ -1,0 +1,13 @@
+Examples (from other poems; these show how boundary cases can be handled):
+
+1. 举杯邀明月，对影成三人。
+   I raise my cup to invite the bright moon; / with my shadow, we are three.
+
+2. 无边落木萧萧下，不尽长江滚滚来。
+   The boundless falling leaves rustle down; / the endless Yangtze rolls on.
+
+3. 安得广厦千万间，大庇天下寒士俱欢颜。
+   If only I could have thousands of broad mansions / to shelter all the poor scholars of the world and make them glad.
+
+4. 长安一片月，万户捣衣声。
+   A sheet of moonlight over Chang'an; / from ten thousand homes, the sound of pounding clothes.

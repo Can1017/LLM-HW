@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "project": "P89 唐诗宋词英译提示对照实验",
+    "created": "2026-10-29",
+    "model": "deepseek-v4.1-flash-1017",
+    "design_doc": "reports/阶段0_题目理解与实验设计_草案.md",
+    "source_note": "原文以通行选本为准；异文与截取范围见各条 variants。参考注释只用于 V2 输入，术语与关系表用于评分锚点。",
+    "splits": {
+      "dev": ["T01", "T02", "T03", "T04", "T05", "T06", "T07", "T08"],
+      "test": ["T09", "T10", "T11", "T12"]
+    }
+  },
+  "poems": [
+    {
+      "id": "T01",
+      "split": "dev",
+      "title_zh": "鹿柴",
+      "title_en": "Deer Enclosure",
+      "author_zh": "王维",
+      "author_en": "Wang Wei",
+      "dynasty": "Tang",
+      "genre": "五言绝句",
+      "source": "《全唐诗》通行文本",
+      "text": [
+        "空山不见人，",
+        "但闻人语响。",
+        "返景入深林，",
+        "复照青苔上。"
+      ],
+      "text_plain": "空山不见人，但闻人语响。返景入深林，复照青苔上。",
+      "variants": "“返景”一作“返影”；此处从通行本。",
+      "terms": [
+        {"id": "T01-T1", "zh": "鹿柴", "gloss": "a place name; literally 'deer enclosure' or 'deer fence'"},
+        {"id": "T01-T2", "zh": "返景", "gloss": "evening sunlight reflected back into the forest"},
+        {"id": "T01-T3", "zh": "青苔", "gloss": "moss"}
+      ],
+      "relations": [
+        {"id": "T01-R1", "type": "negation", "description": "“不见人”是“看不见人”，不是“没有人”；紧接着“但闻人语响”把视觉的否定转为听觉的肯定。"},
+        {"id": "T01-R2", "type": "light/sensory", "description": "“返景入深林，复照青苔上”：返照的阳光进入深林，又落在青苔上；光线是移动的，不是静态布景。"}
+      ],
+      "reference_notes": [
+        "鹿柴 (Lùzhài): a place name; literally \"deer enclosure\".",
+        "返景: evening sunlight reflected back into the forest.",
+        "青苔: moss."
+      ],
+      "key_images": ["空山", "人语", "深林", "返景", "青苔"]
+    },
+    {
+      "id": "T02",
+      "split": "dev",
+      "title_zh": "登鹳雀楼",
+      "title_en": "Climbing Stork Tower",
+      "author_zh": "王之涣",
+      "author_en": "Wang Zhihuan",
+      "dynasty": "Tang",
+      "genre": "五言绝句",
+      "source": "《全唐诗》通行文本",
+      "text": [
+        "白日依山尽，",
+        "黄河入海流。",
+        "欲穷千里目，",
+        "更上一层楼。"
+      ],
+      "text_plain": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+      "variants": "无重要异文。",
+      "terms": [
+        {"id": "T02-T1", "zh": "鹳雀楼", "gloss": "Stork Tower, a famous tower on the Yellow River"},
+        {"id": "T02-T2", "zh": "千里目", "gloss": "a view stretching a thousand li (li: Chinese mile)"},
+        {"id": "T02-T3", "zh": "穷", "gloss": "to exhaust, to reach the end of"},
+        {"id": "T02-T4", "zh": "依", "gloss": "to lean against / sink along"}
+      ],
+      "relations": [
+        {"id": "T02-R1", "type": "purpose-means", "description": "“欲穷千里目，更上一层楼”：想看得更远，是目的；“更上一层楼”是手段/条件，不是单纯写景。"},
+        {"id": "T02-R2", "type": "hyperbole", "description": "“千里”是夸张的视野，不是精确距离；“一层”也不是字面的一层。"},
+        {"id": "T02-R3", "type": "spatial", "description": "白日、山、黄河、海、楼构成由近及远、由下而上的空间推进。"}
+      ],
+      "reference_notes": [
+        "鹳雀楼 (Guànquè Lóu): Stork Tower, a famous tower beside the Yellow River.",
+        "千里目: a view stretching a thousand li; \"li\" is a Chinese mile.",
+        "穷: to exhaust or reach the end of.",
+        "依: to lean against; here the sun sinks along the mountain."
+      ],
+      "key_images": ["白日", "山", "黄河", "海", "楼"]
+    },
+    {
+      "id": "T03",
+      "split": "dev",
+      "title_zh": "江雪",
+      "title_en": "River Snow",
+      "author_zh": "柳宗元",
+      "author_en": "Liu Zongyuan",
+      "dynasty": "Tang",
+      "genre": "五言绝句",
+      "source": "《全唐诗》通行文本",
+      "text": [
+        "千山鸟飞绝，",
+        "万径人踪灭。",
+        "孤舟蓑笠翁，",
+        "独钓寒江雪。"
+      ],
+      "text_plain": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。",
+      "variants": "无重要异文。",
+      "terms": [
+        {"id": "T03-T1", "zh": "蓑笠", "gloss": "straw rain cape and bamboo hat"},
+        {"id": "T03-T2", "zh": "寒江", "gloss": "cold river"},
+        {"id": "T03-T3", "zh": "孤舟", "gloss": "a lone boat"}
+      ],
+      "relations": [
+        {"id": "T03-R1", "type": "negation", "description": "“绝”“灭”都是“完全消失”，不是“从未存在”；两句先写大范围的空无。"},
+        {"id": "T03-R2", "type": "contrast", "description": "“千山”“万径”的巨量与“孤舟”“独钓”的极小形成对比，孤舟是画面的焦点。"},
+        {"id": "T03-R3", "type": "stillness", "description": "飞鸟绝、人踪灭、独钓寒江，整体是静寂与孤立，不是热闹的捕鱼场景。"}
+      ],
+      "reference_notes": [
+        "蓑笠: a straw rain cape and a bamboo hat.",
+        "寒江: the cold river.",
+        "绝 / 灭: both mean \"vanish completely\"."
+      ],
+      "key_images": ["千山", "鸟", "万径", "孤舟", "蓑笠翁", "寒江雪"]
+    },
+    {
+      "id": "T04",
+      "split": "dev",
+      "title_zh": "夜雨寄北",
+      "title_en": "Written on a Rainy Night to a Friend in the North",
+      "author_zh": "李商隐",
+      "author_en": "Li Shangyin",
+      "dynasty": "Tang",
+      "genre": "七言绝句",
+      "source": "《全唐诗》通行文本",
+      "text": [
+        "君问归期未有期，",
+        "巴山夜雨涨秋池。",
+        "何当共剪西窗烛，",
+        "却话巴山夜雨时。"
+      ],
+      "text_plain": "君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。",
+      "variants": "无重要异文。",
+      "terms": [
+        {"id": "T04-T1", "zh": "巴山", "gloss": "the Ba Mountains, in present-day Sichuan"},
+        {"id": "T04-T2", "zh": "秋池", "gloss": "the autumn pond; here the rain floods it"},
+        {"id": "T04-T3", "zh": "何当", "gloss": "when will it be that...; introduces a wished-for future"},
+        {"id": "T04-T4", "zh": "西窗烛", "gloss": "a candle by the west window; a trope of reunion and late-night talk"}
+      ],
+      "relations": [
+        {"id": "T04-R1", "type": "time-shift", "description": "现在（巴山夜雨）→ 想象未来（共剪西窗烛）→ 未来回忆现在（却话巴山夜雨时）；三层时间不能压成一层。"},
+        {"id": "T04-R2", "type": "hypothetical", "description": "“何当”是“什么时候才能”，是愿望与假设，不是已经发生的团聚。"},
+        {"id": "T04-R3", "type": "repetition", "description": "“巴山夜雨”出现两次，分别属于现在与未来回忆，重复本身是结构。"}
+      ],
+      "reference_notes": [
+        "巴山: the Ba Mountains, in present-day Sichuan.",
+        "秋池: the autumn pond; the night rain has flooded it.",
+        "何当: \"when will it be that...\"; it introduces a wished-for future, not a fact.",
+        "西窗烛: a candle by the west window, a traditional image of reunion and late-night conversation."
+      ],
+      "key_images": ["巴山", "夜雨", "秋池", "西窗烛"]
+    },
+    {
+      "id": "T05",
+      "split": "dev",
+      "title_zh": "相思",
+      "title_en": "Love Seeds",
+      "author_zh": "王维",
+      "author_en": "Wang Wei",
+      "dynasty": "Tang",
+      "genre": "五言绝句",
+      "source": "《全唐诗》通行文本",
+      "text": [
+        "红豆生南国，",
+        "春来发几枝。",
+        "愿君多采撷，",
+        "此物最相思。"
+      ],
+      "text_plain": "红豆生南国，春来发几枝。愿君多采撷，此物最相思。",
+      "variants": "“愿君多采撷”一作“劝君多采撷”；此处从通行本。",
+      "terms": [
+        {"id": "T05-T1", "zh": "红豆", "gloss": "red bean, a traditional token of longing or love"},
+        {"id": "T05-T2", "zh": "南国", "gloss": "the south, the southern land"},
+        {"id": "T05-T3", "zh": "采撷", "gloss": "to pick, to gather"}
+      ],
+      "relations": [
+        {"id": "T05-R1", "type": "imperative", "description": "“愿君多采撷”是对对方的祝愿/请求，不是叙述自己采。"},
+        {"id": "T05-R2", "type": "symbol", "description": "红豆不是普通植物，而是“相思”的象征；末句把象征说破。"},
+        {"id": "T05-R3", "type": "judgment", "description": "“此物最相思”是判断：这东西最能寄托/唤起相思，不是“最想念这东西”。"}
+      ],
+      "reference_notes": [
+        "红豆: the red bean, a traditional token of longing or love.",
+        "南国: the south, the southern land.",
+        "采撷: to pick or gather."
+      ],
+      "key_images": ["红豆", "南国", "春", "枝", "君"]
+    },
+    {
+      "id": "T06",
+      "split": "dev",
+      "title_zh": "水调歌头·明月几时有（上片）",
+      "title_en": "Prelude to Water Melody: When Did the Moon First Appear? (upper stanza)",
+      "author_zh": "苏轼",
+      "author_en": "Su Shi",
+      "dynasty": "Song",
+      "genre": "词（上片，4 行节选）",
+      "source": "《全宋词》通行文本",
+      "text": [
+        "明月几时有？把酒问青天。",
+        "不知天上宫阙，今夕是何年。",
+        "我欲乘风归去，又恐琼楼玉宇，高处不胜寒。",
+        "起舞弄清影，何似在人间。"
+      ],
+      "text_plain": "明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。",
+      "variants": "“又恐”一作“惟恐/唯恐”；此处从通行本。仅取上片。",
+      "terms": [
+        {"id": "T06-T1", "zh": "宫阙", "gloss": "palace towers"},
+        {"id": "T06-T2", "zh": "琼楼玉宇", "gloss": "jade towers and halls; here the moon palace"},
+        {"id": "T06-T3", "zh": "不胜寒", "gloss": "cannot bear the cold"},
+        {"id": "T06-T4", "zh": "何似", "gloss": "how does it compare with"}
+      ],
+      "relations": [
+        {"id": "T06-R1", "type": "hypothetical/wish", "description": "“我欲乘风归去，又恐……”是愿望与顾虑，不是已经飞升；不能译成确定动作。"},
+        {"id": "T06-R2", "type": "comparison", "description": "“何似在人间”是反问式比较：天上的清影比起人间如何？不是“不像人间”。"},
+        {"id": "T06-R3", "type": "contrast", "description": "天上宫阙/琼楼玉宇与人间构成对照；清影、起舞属于月下人间。"}
+      ],
+      "reference_notes": [
+        "宫阙: palace towers.",
+        "琼楼玉宇: jade towers and halls; here the legendary palace on the moon.",
+        "不胜寒: cannot bear the cold.",
+        "何似: how does it compare with."
+      ],
+      "key_images": ["明月", "青天", "宫阙", "琼楼玉宇", "清影", "人间"]
+    },
+    {
+      "id": "T07",
+      "split": "dev",
+      "title_zh": "声声慢·寻寻觅觅（上片）",
+      "title_en": "Slow, Slow Song: Searching and Seeking (upper stanza)",
+      "author_zh": "李清照",
+      "author_en": "Li Qingzhao",
+      "dynasty": "Song",
+      "genre": "词（上片，4 行节选）",
+      "source": "《全宋词》通行文本",
+      "text": [
+        "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+        "乍暖还寒时候，最难将息。",
+        "三杯两盏淡酒，怎敌他、晚来风急？",
+        "雁过也，正伤心，却是旧时相识。"
+      ],
+      "text_plain": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。三杯两盏淡酒，怎敌他、晚来风急？雁过也，正伤心，却是旧时相识。",
+      "variants": "“怎敌他、晚来风急”一作“怎敌他晚来风急”；此处从通行本。仅取上片。",
+      "terms": [
+        {"id": "T07-T1", "zh": "将息", "gloss": "to rest and recover"},
+        {"id": "T07-T2", "zh": "乍暖还寒", "gloss": "suddenly warm, then cold again"},
+        {"id": "T07-T3", "zh": "旧时相识", "gloss": "an old acquaintance"}
+      ],
+      "relations": [
+        {"id": "T07-R1", "type": "reduplication", "description": "“寻寻觅觅，冷冷清清，凄凄惨惨戚戚”是层层加深的心境，不是七个并列动作；英语不能逐词硬拆成七件事。"},
+        {"id": "T07-R2", "type": "rhetorical-question", "description": "“怎敌他、晚来风急”是反问：几杯淡酒怎么挡得住晚来的急风？不是真的询问。"},
+        {"id": "T07-R3", "type": "past-present", "description": "“雁过也，正伤心，却是旧时相识”：雁是旧日相识，把过去与现在接上；不是普通的雁飞过。"}
+      ],
+      "reference_notes": [
+        "将息: to rest and recover.",
+        "乍暖还寒: suddenly warm, then cold again.",
+        "旧时相识: an old acquaintance; here the wild geese are recognized from former days."
+      ],
+      "key_images": ["雁", "淡酒", "晚风"]
+    },
+    {
+      "id": "T08",
+      "split": "dev",
+      "title_zh": "浣溪沙·一曲新词酒一杯",
+      "title_en": "Silk-Washing Stream: A New Song, a Cup of Wine",
+      "author_zh": "晏殊",
+      "author_en": "Yan Shu",
+      "dynasty": "Song",
+      "genre": "词（4 行节选）",
+      "source": "《全宋词》通行文本",
+      "text": [
+        "一曲新词酒一杯，去年天气旧亭台。",
+        "夕阳西下几时回？",
+        "无可奈何花落去，似曾相识燕归来。",
+        "小园香径独徘徊。"
+      ],
+      "text_plain": "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？无可奈何花落去，似曾相识燕归来。小园香径独徘徊。",
+      "variants": "无重要异文。",
+      "terms": [
+        {"id": "T08-T1", "zh": "新词", "gloss": "a new song / new lyric"},
+        {"id": "T08-T2", "zh": "旧亭台", "gloss": "the old pavilion"},
+        {"id": "T08-T3", "zh": "香径", "gloss": "a fragrant garden path"}
+      ],
+      "relations": [
+        {"id": "T08-R1", "type": "past-present", "description": "“去年天气旧亭台”把去年与今年并置；“夕阳西下几时回”是反问，感叹时光不返。"},
+        {"id": "T08-R2", "type": "antithesis", "description": "“无可奈何花落去，似曾相识燕归来”是对仗：花落（去）与燕归（来）方向相反，情绪一失一得。"},
+        {"id": "T08-R3", "type": "rhetorical-question", "description": "“几时回”不是请求回答，而是明知不回的感叹。"}
+      ],
+      "reference_notes": [
+        "新词: a new song or lyric.",
+        "旧亭台: the old pavilion.",
+        "香径: a fragrant garden path."
+      ],
+      "key_images": ["新词", "酒", "亭台", "夕阳", "花", "燕", "香径"]
+    },
+    {
+      "id": "T09",
+      "split": "test",
+      "title_zh": "枫桥夜泊",
+      "title_en": "Mooring by Maple Bridge at Night",
+      "author_zh": "张继",
+      "author_en": "Zhang Ji",
+      "dynasty": "Tang",
+      "genre": "七言绝句",
+      "source": "《全唐诗》通行文本",
+      "text": [
+        "月落乌啼霜满天，",
+        "江枫渔火对愁眠。",
+        "姑苏城外寒山寺，",
+        "夜半钟声到客船。"
+      ],
+      "text_plain": "月落乌啼霜满天，江枫渔火对愁眠。姑苏城外寒山寺，夜半钟声到客船。",
+      "variants": "“江枫”一作“江村”（少见）；“对愁眠”有歧义，见关系表。",
+      "terms": [
+        {"id": "T09-T1", "zh": "姑苏", "gloss": "Suzhou"},
+        {"id": "T09-T2", "zh": "寒山寺", "gloss": "Hanshan Temple, near Suzhou"},
+        {"id": "T09-T3", "zh": "渔火", "gloss": "fishing-boat lights"},
+        {"id": "T09-T4", "zh": "对愁眠", "gloss": "sleep facing sorrow, or sleep accompanied by sorrow; the phrase is ambiguous"}
+      ],
+      "relations": [
+        {"id": "T09-R1", "type": "juxtaposition", "description": "“月落”“乌啼”“霜满天”三个意象并置，不靠显式连接词；不能改写成有因果关系的叙事。"},
+        {"id": "T09-R2", "type": "causal/auditory", "description": "“夜半钟声到客船”：钟声从寒山寺传到客船，听觉把远处的寺与近处的船连起来。"},
+        {"id": "T09-R3", "type": "ambiguity", "description": "“对愁眠”可解为“面对愁绪而眠”或“愁绪相伴而眠”；两种都保留，不强行改成单一解释。"}
+      ],
+      "reference_notes": [
+        "姑苏: Suzhou.",
+        "寒山寺: Hanshan Temple, near Suzhou.",
+        "渔火: lights on fishing boats.",
+        "对愁眠: \"sleeping facing sorrow\" or \"sleeping with sorrow beside one\"; the phrase is deliberately ambiguous."
+      ],
+      "key_images": ["月落", "乌啼", "霜", "江枫", "渔火", "寒山寺", "钟声", "客船"]
+    },
+    {
+      "id": "T10",
+      "split": "test",
+      "title_zh": "春晓",
+      "title_en": "Spring Dawn",
+      "author_zh": "孟浩然",
+      "author_en": "Meng Haoran",
+      "dynasty": "Tang",
+      "genre": "五言绝句",
+      "source": "《全唐诗》通行文本",
+      "text": [
+        "春眠不觉晓，",
+        "处处闻啼鸟。",
+        "夜来风雨声，",
+        "花落知多少。"
+      ],
+      "text_plain": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。",
+      "variants": "无重要异文。",
+      "terms": [
+        {"id": "T10-T1", "zh": "不觉晓", "gloss": "without realizing it was dawn"},
+        {"id": "T10-T2", "zh": "啼鸟", "gloss": "crying birds"},
+        {"id": "T10-T3", "zh": "知多少", "gloss": "who knows how many"}
+      ],
+      "relations": [
+        {"id": "T10-R1", "type": "negation", "description": "“不觉晓”是“没察觉到天亮”，不是“天没有亮”。"},
+        {"id": "T10-R2", "type": "auditory-inference", "description": "由“闻啼鸟”到“风雨声”再到“花落”，是听觉触发的推断链；诗人没有看见花落。"},
+        {"id": "T10-R3", "type": "question", "description": "“花落知多少”是疑问/感叹，不是精确计数。"}
+      ],
+      "reference_notes": [
+        "不觉晓: without realizing that it was already dawn.",
+        "啼鸟: crying birds.",
+        "知多少: who knows how many."
+      ],
+      "key_images": ["春眠", "啼鸟", "风雨", "花"]
+    },
+    {
+      "id": "T11",
+      "split": "test",
+      "title_zh": "虞美人·春花秋月何时了",
+      "title_en": "The Beautiful Lady Yu: When Will Spring Flowers and Autumn Moon End?",
+      "author_zh": "李煜",
+      "author_en": "Li Yu",
+      "dynasty": "Five Dynasties (Southern Tang)",
+      "genre": "词（4 行节选）",
+      "source": "《南唐二主词》通行文本",
+      "text": [
+        "春花秋月何时了？往事知多少。",
+        "小楼昨夜又东风，故国不堪回首月明中。",
+        "雕栏玉砌应犹在，只是朱颜改。",
+        "问君能有几多愁？恰似一江春水向东流。"
+      ],
+      "text_plain": "春花秋月何时了？往事知多少。小楼昨夜又东风，故国不堪回首月明中。雕栏玉砌应犹在，只是朱颜改。问君能有几多愁？恰似一江春水向东流。",
+      "variants": "“雕栏”一作“雕阑”；“朱颜改”可解为容颜改或江山改，见关系表。",
+      "terms": [
+        {"id": "T11-T1", "zh": "雕栏玉砌", "gloss": "carved balustrades and jade steps"},
+        {"id": "T11-T2", "zh": "朱颜", "gloss": "rosy faces; here also youthful complexion, possibly the old kingdom"},
+        {"id": "T11-T3", "zh": "一江春水", "gloss": "a river of spring water"}
+      ],
+      "relations": [
+        {"id": "T11-R1", "type": "past-present", "description": "“故国”“雕栏玉砌应犹在”与“朱颜改”对照：宫殿可能还在，人和青春已变。"},
+        {"id": "T11-R2", "type": "metaphor", "description": "“恰似一江春水向东流”：愁像春水，绵长、东流、无尽；不是字面的一江春水。"},
+        {"id": "T11-R3", "type": "rhetorical-question", "description": "“问君能有几多愁”是设问，答案由下一句比喻给出，不是要求对方回答。"}
+      ],
+      "reference_notes": [
+        "雕栏玉砌: carved balustrades and jade steps, here the old palace.",
+        "朱颜: rosy faces; here also youthful complexion, and possibly the old kingdom's people.",
+        "一江春水: a river of spring water."
+      ],
+      "key_images": ["春花", "秋月", "小楼", "东风", "故国", "月明", "雕栏玉砌", "朱颜", "春水"]
+    },
+    {
+      "id": "T12",
+      "split": "test",
+      "title_zh": "鹊桥仙·纤云弄巧",
+      "title_en": "Immortals at the Magpie Bridge: Fine Clouds Show Their Skill",
+      "author_zh": "秦观",
+      "author_en": "Qin Guan",
+      "dynasty": "Song",
+      "genre": "词（4 行节选）",
+      "source": "《全宋词》通行文本",
+      "text": [
+        "纤云弄巧，飞星传恨，银汉迢迢暗度。",
+        "金风玉露一相逢，便胜却人间无数。",
+        "柔情似水，佳期如梦，忍顾鹊桥归路。",
+        "两情若是久长时，又岂在朝朝暮暮。"
+      ],
+      "text_plain": "纤云弄巧，飞星传恨，银汉迢迢暗度。金风玉露一相逢，便胜却人间无数。柔情似水，佳期如梦，忍顾鹊桥归路。两情若是久长时，又岂在朝朝暮暮。",
+      "variants": "“暗度”一作“暗渡”；此处从通行本。",
+      "terms": [
+        {"id": "T12-T1", "zh": "银汉", "gloss": "the Milky Way"},
+        {"id": "T12-T2", "zh": "金风玉露", "gloss": "autumn wind and white dew; the once-a-year meeting of the Cowherd and Weaver Girl"},
+        {"id": "T12-T3", "zh": "鹊桥", "gloss": "the magpie bridge"},
+        {"id": "T12-T4", "zh": "朝朝暮暮", "gloss": "every morning and evening; daily companionship"}
+      ],
+      "relations": [
+        {"id": "T12-R1", "type": "condition", "description": "“两情若是久长时”是条件句：如果两情长久；“若是”不是“好像是”。"},
+        {"id": "T12-R2", "type": "rhetorical-question", "description": "“又岂在朝朝暮暮”是反问：又哪里在于天天相守？不是真的询问。"},
+        {"id": "T12-R3", "type": "contrast", "description": "一年一度的相逢“胜却人间无数”，短暂与长久、稀与密构成对照；不能只译成“爱情不在乎时间”。"}
+      ],
+      "reference_notes": [
+        "银汉: the Milky Way.",
+        "金风玉露: autumn wind and white dew; here the once-a-year meeting of the Cowherd and the Weaver Girl.",
+        "鹊桥: the magpie bridge, formed for their meeting.",
+        "朝朝暮暮: every morning and evening; daily companionship."
+      ],
+      "key_images": ["纤云", "飞星", "银汉", "金风玉露", "鹊桥", "朝朝暮暮"]
+    }
+  ]
+}

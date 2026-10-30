@@ -1,0 +1,264 @@
+{
+  "standard": "sr",
+  "seed": 20261030,
+  "results": "D:\\PostGraduate\\LLM\\hw4\\p89-poetry-translation\\results\\main_dev.jsonl",
+  "results_sha256": "f04938bd089d9eb7e4566f902a16948f30e01cc17f76fdfd9ea62e9148c76594",
+  "items": [
+    {
+      "blind_id": "B001",
+      "run_key": "T04-v1-r1",
+      "poem_id": "T04",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "3d317d7efcde056511f29a28975c8ef3f8252439c6bb43b4a2250efe6f533bef"
+    },
+    {
+      "blind_id": "B002",
+      "run_key": "T08-v0-r1",
+      "poem_id": "T08",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "874859bceac9dbebe18381e47e83b2b747f54432595ab43ec8abbc62ac2da36e"
+    },
+    {
+      "blind_id": "B003",
+      "run_key": "T05-v1-r1",
+      "poem_id": "T05",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "28147a380b8a5f0d8eb5d85235a6d6aba3fcf154e15eceb697dd49145ececb39"
+    },
+    {
+      "blind_id": "B004",
+      "run_key": "T01-v0-r1",
+      "poem_id": "T01",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "d5041d2c02a968eaeeae8fd6bf6edc52de745c9f6365ea1cc05e6405fd44b029"
+    },
+    {
+      "blind_id": "B005",
+      "run_key": "T02-v3-r1",
+      "poem_id": "T02",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "80fc40d86bf99527e3b340c520114155a557c4b3df7258f71fe137a5251250f7"
+    },
+    {
+      "blind_id": "B006",
+      "run_key": "T03-v0-r1",
+      "poem_id": "T03",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "c3d638b36b38a4687f0a2a4771ba64f308a6e4c18f3278c335eed882d867a7fd"
+    },
+    {
+      "blind_id": "B007",
+      "run_key": "T01-v3-r1",
+      "poem_id": "T01",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "e3119f52da90971d35d812ddb4dee058ed9373ff1c9dcff2b154e3e202630bd3"
+    },
+    {
+      "blind_id": "B008",
+      "run_key": "T04-v0-r1",
+      "poem_id": "T04",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "05a179e2c3767c0e6d8c5a8542bcdeda0b742e7722d223748af2fa426530cd97"
+    },
+    {
+      "blind_id": "B009",
+      "run_key": "T08-v1-r1",
+      "poem_id": "T08",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "170025bdb118f1d55bb06e15db58435092da9b8b003ebdd268a04abc37ee34b3"
+    },
+    {
+      "blind_id": "B010",
+      "run_key": "T08-v2-r1",
+      "poem_id": "T08",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "2f29e5e963449f4214b17c31433ddfacb4f5482bbc6780ecbfcbcbd196cc028d"
+    },
+    {
+      "blind_id": "B011",
+      "run_key": "T02-v2-r1",
+      "poem_id": "T02",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "3158c2d318ec5a968758f55aa7b5113b688355f03bebb6b1d4b56983f1947bc1"
+    },
+    {
+      "blind_id": "B012",
+      "run_key": "T03-v1-r1",
+      "poem_id": "T03",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "dbb09dae02dc0564429234b7b02d448f6cb105fbe132f5da210eb893d730e44a"
+    },
+    {
+      "blind_id": "B013",
+      "run_key": "T06-v3-r1",
+      "poem_id": "T06",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "cf8f7fa7f183f83d4e9303ff9e8a5fc19b760f6e7f85378f7270e670a7150932"
+    },
+    {
+      "blind_id": "B014",
+      "run_key": "T04-v3-r1",
+      "poem_id": "T04",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "6803c277f50cf9683498f3f85a6c1882bde538053463e25c61b9cd9ed495125f"
+    },
+    {
+      "blind_id": "B015",
+      "run_key": "T02-v1-r1",
+      "poem_id": "T02",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "72e87148849983151914977f2bdc979c93f56ac07313a405867a6c76d16bf71c"
+    },
+    {
+      "blind_id": "B016",
+      "run_key": "T03-v2-r1",
+      "poem_id": "T03",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "b76cc6ae3d698cb231b1e5577d24fc16b1120b5ccaef403ce19a972ab3e9524f"
+    },
+    {
+      "blind_id": "B017",
+      "run_key": "T03-v3-r1",
+      "poem_id": "T03",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "abb1ccd46746014c101e932271e40c6fb4e75136006d852969f27a40a7eb96e5"
+    },
+    {
+      "blind_id": "B018",
+      "run_key": "T07-v2-r1",
+      "poem_id": "T07",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "156b4a68d1634d2513c6c0707333eb29e9de4fb972fbffccdc032d167cd85c4e"
+    },
+    {
+      "blind_id": "B019",
+      "run_key": "T06-v0-r1",
+      "poem_id": "T06",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "66580582074a05aba4480a431cc650fe84079162301fd674e0b85a5f009a65f1"
+    },
+    {
+      "blind_id": "B020",
+      "run_key": "T05-v0-r1",
+      "poem_id": "T05",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "a01152571a80850cf49cbc5cbc766e08da8f8087a82e5b4a3d982a255b2e0bd5"
+    },
+    {
+      "blind_id": "B021",
+      "run_key": "T07-v3-r1",
+      "poem_id": "T07",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "d8aa91c51f8fa606976ad97b6ea85991a4ceb8076a540139cbf740521881ea24"
+    },
+    {
+      "blind_id": "B022",
+      "run_key": "T01-v2-r1",
+      "poem_id": "T01",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "2a34cf95d242b87ee3bd120832e1c8d1e0c78de590356ba782c098ec662bfdfc"
+    },
+    {
+      "blind_id": "B023",
+      "run_key": "T01-v1-r1",
+      "poem_id": "T01",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "2c77be06c8c3d5ef0127e80d8f29ce7ba70fcba69640cea76e91d322d5d11e6a"
+    },
+    {
+      "blind_id": "B024",
+      "run_key": "T05-v3-r1",
+      "poem_id": "T05",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "b3cd87590f389770e4c209f0b8656ecd2ca80db4dd9f78d30802eec79a4aa9fa"
+    },
+    {
+      "blind_id": "B025",
+      "run_key": "T07-v0-r1",
+      "poem_id": "T07",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "1276b75fdce4bc1ee4950ac7798fa2cd945e54f7d711f2ed1285fda2cbd68b56"
+    },
+    {
+      "blind_id": "B026",
+      "run_key": "T06-v1-r1",
+      "poem_id": "T06",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "dba69d43c880269e14ac904c444a06697a48fbf4e6418d1960a7a859fbb6396b"
+    },
+    {
+      "blind_id": "B027",
+      "run_key": "T08-v3-r1",
+      "poem_id": "T08",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "a26a0f2b9b8f66202cfe33220ee8e12d6cedc46f716f5778b0f66754140c132c"
+    },
+    {
+      "blind_id": "B028",
+      "run_key": "T05-v2-r1",
+      "poem_id": "T05",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "d5772962e4e44db8893c7b55fe104c8bc72f7a57130ed0967d64c37e727ea7f7"
+    },
+    {
+      "blind_id": "B029",
+      "run_key": "T04-v2-r1",
+      "poem_id": "T04",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "a5b5f1384afbba82fc08c7ceef7931aaabffd5e39ffb58cbfbe7aaaa62affd88"
+    },
+    {
+      "blind_id": "B030",
+      "run_key": "T07-v1-r1",
+      "poem_id": "T07",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "1cb489cc8ec65046195305cf4a1053c24d4d6cf70c6c901706f0a8109c219b72"
+    },
+    {
+      "blind_id": "B031",
+      "run_key": "T02-v0-r1",
+      "poem_id": "T02",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "99c87305d62a6b6e0e3d4c258774176b6d4e4badefc659be672eb07a2bcbc7a2"
+    },
+    {
+      "blind_id": "B032",
+      "run_key": "T06-v2-r1",
+      "poem_id": "T06",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "6e98bf9d31f0e2ff5a81db61bba3607bb13e14a63ea73e5457edbb14bcaa6cbb"
+    }
+  ]
+}

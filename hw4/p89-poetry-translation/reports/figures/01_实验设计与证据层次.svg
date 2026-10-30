@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="645.12pt" height="291.816pt" viewBox="0 0 645.12 291.816" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-30T14:26:05.681219</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 291.816 
+L 645.12 291.816 
+L 645.12 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.472 136.4832 
+L 621.648 136.4832 
+Q 628.344 136.4832 628.344 129.8304 
+L 628.344 23.3856 
+Q 628.344 16.7328 621.648 16.7328 
+L 23.472 16.7328 
+Q 16.776 16.7328 16.776 23.3856 
+L 16.776 129.8304 
+Q 16.776 136.4832 23.472 136.4832 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #f0f7ff; stroke: #93c5fd; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 23.472 275.0832 
+L 621.648 275.0832 
+Q 628.344 275.0832 628.344 268.4304 
+L 628.344 161.9856 
+Q 628.344 155.3328 621.648 155.3328 
+L 23.472 155.3328 
+Q 16.776 155.3328 16.776 161.9856 
+L 16.776 268.4304 
+Q 16.776 275.0832 23.472 275.0832 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #f0fdf4; stroke: #86efac; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 34.632 123.1776 
+L 161.298 123.1776 
+Q 165.762 123.1776 165.762 118.7424 
+L 165.762 51.1056 
+Q 165.762 46.6704 161.298 46.6704 
+L 34.632 46.6704 
+Q 30.168 46.6704 30.168 51.1056 
+L 30.168 118.7424 
+Q 30.168 123.1776 34.632 123.1776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #3b82f6; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 184.176 123.1776 
+L 312.516 123.1776 
+Q 316.98 123.1776 316.98 118.7424 
+L 316.98 51.1056 
+Q 316.98 46.6704 312.516 46.6704 
+L 184.176 46.6704 
+Q 179.712 46.6704 179.712 51.1056 
+L 179.712 118.7424 
+Q 179.712 123.1776 184.176 123.1776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #3b82f6; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 335.394 123.1776 
+L 462.06 123.1776 
+Q 466.524 123.1776 466.524 118.7424 
+L 466.524 51.1056 
+Q 466.524 46.6704 462.06 46.6704 
+L 335.394 46.6704 
+Q 330.93 46.6704 330.93 51.1056 
+L 330.93 118.7424 
+Q 330.93 123.1776 335.394 123.1776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #3b82f6; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 484.938 123.1776 
+L 610.488 123.1776 
+Q 614.952 123.1776 614.952 118.7424 
+L 614.952 51.1056 
+Q 614.952 46.6704 610.488 46.6704 
+L 484.938 46.6704 
+Q 480.474 46.6704 480.474 51.1056 
+L 480.474 118.7424 
+Q 480.474 123.1776 484.938 123.1776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #3b82f6; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 34.632 261.7776 
+L 161.298 261.7776 
+Q 165.762 261.7776 165.762 257.3424 
+L 165.762 189.7056 
+Q 165.762 185.2704 161.298 185.2704 
+L 34.632 185.2704 
+Q 30.168 185.2704 30.168 189.7056 
+L 30.168 257.3424 
+Q 30.168 261.7776 34.632 261.7776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #10b981; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 184.176 261.7776 
+L 312.516 261.7776 
+Q 316.98 261.7776 316.98 257.3424 
+L 316.98 189.7056 
+Q 316.98 185.2704 312.516 185.2704 
+L 184.176 185.2704 
+Q 179.712 185.2704 179.712 189.7056 
+L 179.712 257.3424 
+Q 179.712 261.7776 184.176 261.7776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #10b981; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 335.394 261.7776 
+L 462.06 261.7776 
+Q 466.524 261.7776 466.524 257.3424 
+L 466.524 189.7056 
+Q 466.524 185.2704 462.06 185.2704 
+L 335.394 185.2704 
+Q 330.93 185.2704 330.93 189.7056 
+L 330.93 257.3424 
+Q 330.93 261.7776 335.394 261.7776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #10b981; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 484.938 261.7776 
+L 610.488 261.7776 
+Q 614.952 261.7776 614.952 257.3424 
+L 614.952 189.7056 
+Q 614.952 185.2704 610.488 185.2704 
+L 484.938 185.2704 
+Q 480.474 185.2704 480.474 189.7056 
+L 480.474 257.3424 
+Q 480.474 261.7776 484.938 261.7776 
+z
+" clip-path="url(#p2a29fc1898)" style="fill: #ffffff; stroke: #10b981; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #1e3a8a; font: 700 10.5px 'Microsoft YaHei'; text-anchor: start" x="33.516" y="37.919602" transform="rotate(-0 33.516 37.919602)">第一部分：四类提示改动的同批对照与留出集独立检验（72 次正式调用 + 9 次试跑校准）</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #065f46; font: 700 10.5px 'Microsoft YaHei'; text-anchor: start" x="33.516" y="176.519602" transform="rotate(-0 33.516 176.519602)">第二部分：文学评价口径敏感性分析与注释粒度消融实验（24 次补充消融调用）</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(56.460188 69.867647)">1. 语料构建与参数校准</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(42.340172 81.410684)">12 首诗词（8 开发 + 4 测试）</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(44.665 92.953722)">逐首设定文化词与诗学关系点</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(42.999375 104.496759)">试跑 9 次锁定输出上限 12000</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(202.741187 69.867647)">2. 开发集四方案同批对照</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(186.611531 81.410684)">直接译 / 任务标准 / 参考注 / 示例</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(187.407828 92.953722)">开发集 32 次 + 稳定性采样 24 次</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(196.236922 104.496759)">固定同一模型与解码温度 0.2</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(353.122187 69.867647)">3. 双视角匿名盲评与选型</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(339.959266 81.410684)">忠实文学译介 + 自由改写双视角</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(338.922734 92.953722)">参考注释版术语分最高（0.969）</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(337.227 104.496759)">任务标准版散文化且耗时翻倍淘汰</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(506.208188 69.867647)">4. 留出测试集独立验证</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(481.382047 81.410684)">《枫桥夜泊》《春晓》等 4 首留出诗</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(489.582047 92.953722)">直接翻译与参考注释各重复 2 次</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(486.213 104.496759)">术语同为满分，按最简胜出留基线</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(48.260188 208.467647)">5. 词义与歧义评价口径分析</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(38.160734 220.010684)">区分完全误译（0次）与局部润色</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(36.465 231.553722)">检验接纳功能对等异译的得分变化</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(36.465 243.096759)">统一《枫桥夜泊》歧义句评判标准</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(198.641187 208.467647)">6. 注释粒度三条件消融设计</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(186.689687 220.010684)">无注释 / 单条核心注 / 完整词表注</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(190.946 231.553722)">完整词表严格包含单条核心注释</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(186.846 243.096759)">隔离注释内容质量与词条数量效应</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(349.022187 208.467647)">7. 诊断名篇与拓展新诗检验</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(337.227 220.010684)">复测《登鹳雀楼》与《枫桥夜泊》</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(341.327 231.553722)">拓展《商山早行》与《竹里馆》</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(337.460828 243.096759)">每首每条件重复 2 次（共 24 次）</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(498.008188 208.467647)">8. 成本拆解与最终方法裁决</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(493.199656 220.010684)">三条件术语与关系分均达 1.00</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(486.134844 231.553722)">完整词表诱发尾注增至 3.88 行/首</text>
+    <text style="fill: #1f2937; font: 8.2px 'Microsoft YaHei'" transform="translate(484.845266 243.096759)">确立“最简基线 + 按需单条注释”</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 167.201275 84.924 
+Q 172.735382 84.924 176.592439 84.924 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 172.792439 83.024 
+L 176.592439 84.924 
+L 172.792439 86.824 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 167.201275 223.524 
+Q 172.735382 223.524 176.592439 223.524 
+" style="fill: none; stroke: #059669; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 172.792439 221.624 
+L 176.592439 223.524 
+L 172.792439 225.424 
+" style="fill: none; stroke: #059669; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 318.419275 84.924 
+Q 323.953382 84.924 327.810439 84.924 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 324.010439 83.024 
+L 327.810439 84.924 
+L 324.010439 86.824 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 318.419275 223.524 
+Q 323.953382 223.524 327.810439 223.524 
+" style="fill: none; stroke: #059669; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 324.010439 221.624 
+L 327.810439 223.524 
+L 324.010439 225.424 
+" style="fill: none; stroke: #059669; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 467.963275 84.924 
+Q 473.497382 84.924 477.354439 84.924 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 473.554439 83.024 
+L 477.354439 84.924 
+L 473.554439 86.824 
+" style="fill: none; stroke: #2563eb; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 467.963275 223.524 
+Q 473.497382 223.524 477.354439 223.524 
+" style="fill: none; stroke: #059669; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 473.554439 221.624 
+L 477.354439 223.524 
+L 473.554439 225.424 
+" style="fill: none; stroke: #059669; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 322.56 136.263795 
+Q 322.56 145.907989 322.56 153.763328 
+" style="fill: none; stroke: #4b5563; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 324.46 149.963328 
+L 322.56 153.763328 
+L 320.66 149.963328 
+" style="fill: none; stroke: #4b5563; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="fill: #374151; font: 700 8.8px 'Microsoft YaHei'; text-anchor: start" x="332.604" y="148.331437" transform="rotate(-0 332.604 148.331437)">针对留出集天花板效应与局部注释假设展开深度消融（总计 96 次正式调用）</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2a29fc1898">
+   <rect x="10.08" y="10.08" width="624.96" height="271.656"/>
+  </clipPath>
+ </defs>
+</svg>

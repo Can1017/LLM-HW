@@ -1,0 +1,41 @@
+{
+  "purpose": "Frozen single-note ablation; diagnostic items and new project items reported separately",
+  "poems": [
+    {
+      "id": "D02", "original_id": "T02", "cohort": "diagnostic", "title": "登鹳雀楼", "author": "王之涣", "dynasty": "Tang",
+      "source_url": "https://zh.wikisource.org/wiki/登鸛雀樓",
+      "text": ["白日依山尽，", "黄河入海流。", "欲穷千里目，", "更上一层楼。"],
+      "single_note": "li is a traditional Chinese unit of distance; a thousand li evokes a vast view here and need not be converted to an exact measurement.",
+      "other_notes": ["依山尽 depicts the sun sinking out of sight along or behind the mountains.", "穷 means taking in the full extent of the view, not poverty.", "更上一层楼 links climbing higher to seeing farther."],
+      "terms": ["太阳沿山或山后落下；不要求逐字使用 lean", "千里目为广远视野；miles、li 或不保留单位的自然表达均可，不因没有单位注释扣分", "穷为尽览、尽收眼底；take in、see farther 等功能对等表达均可"],
+      "relations": ["欲穷与更上保留目的和手段", "数词保留诗性广远感；不要求显式解释 hyperbole", "山、河海与登高的空间关系未反转"]
+    },
+    {
+      "id": "D09", "original_id": "T09", "cohort": "diagnostic", "title": "枫桥夜泊", "author": "张继", "dynasty": "Tang",
+      "source_url": "https://zh.wikisource.org/wiki/楓橋夜泊",
+      "text": ["月落乌啼霜满天，", "江枫渔火对愁眠。", "姑苏城外寒山寺，", "夜半钟声到客船。"],
+      "single_note": "愁眠 refers to the traveler lying down in sorrow; the river maples and fishing lights face or accompany the sorrowful traveler, rather than naming another person or place.",
+      "other_notes": ["姑苏 is an old name for Suzhou.", "寒山寺 is Hanshan Temple outside Suzhou; Cold Mountain Temple is an acceptable translated name.", "渔火 means lights on fishing boats."],
+      "terms": ["姑苏为苏州地名，Gusu/Suzhou均可", "寒山寺为寺院专名，Hanshan/Cold Mountain Temple均可", "渔火为捕鱼或渔船灯火，fishing lights也可"],
+      "relations": ["月落、乌啼、霜保持并置而非虚构因果", "寺钟声传到旅人船上，不反转方向", "景物与怀愁而卧的旅人构成相对/相伴；合理单一解读满分，不强制两种解释"]
+    },
+    {
+      "id": "N01", "cohort": "new", "title": "商山早行", "author": "温庭筠", "dynasty": "Tang",
+      "source_url": "https://zh.wikisource.org/wiki/商山早行",
+      "text": ["晨起动征铎，客行悲故乡。", "鸡声茅店月，人迹板桥霜。", "槲叶落山路，枳花明驿墙。", "因思杜陵梦，凫雁满回塘。"],
+      "single_note": "杜陵 is a place near Chang'an, evoking the home region the traveler longs for; it is not a person's name here.",
+      "other_notes": ["征铎 are bells on animals or vehicles used on a journey.", "槲叶 are oak leaves; 枳花 are the pale blossoms of the trifoliate orange.", "凫雁 are wild ducks and geese; 回塘 is a curving pond."],
+      "terms": ["杜陵保留地名或故乡地域，不写成人名", "槲叶与枳花为叶落/花明的植物意象，oak与orange类可接受，不要求植物学专名", "凫雁与回塘保留水鸟和曲塘意象"],
+      "relations": ["客行与悲故乡为旅途乡愁，不变成愉快归家", "鸡声、月、足迹、霜为清晨意象，不添加不必要因果", "末联从眼前旅景转入思念或梦中杜陵，不写成眼前已抵家"]
+    },
+    {
+      "id": "N02", "cohort": "new", "title": "竹里馆", "author": "王维", "dynasty": "Tang",
+      "source_url": "https://zh.wikisource.org/wiki/竹里館",
+      "text": ["独坐幽篁里，", "弹琴复长啸。", "深林人不知，", "明月来相照。"],
+      "single_note": "琴 here is the traditional Chinese qin, a plucked string instrument often translated as a Chinese zither, not a Western piano.",
+      "other_notes": ["幽篁 is a secluded bamboo grove.", "长啸 is a long clear vocal sound, often rendered as whistling or chanting.", "相照 describes the bright moon shining on the solitary speaker."],
+      "terms": ["幽篁为幽深竹林", "琴为qin/zither类，不能是西式钢琴", "长啸可为whistle/chant等长声，不强行限定唯一英文词"],
+      "relations": ["独坐保持孤独独处而不是众人相聚", "深林人不知为无人知晓/无他人知晓，不误写诗人不认识别人", "月照诗人并有陪伴意味，照射方向正确"]
+    }
+  ]
+}

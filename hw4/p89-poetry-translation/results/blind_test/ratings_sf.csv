@@ -1,0 +1,17 @@
+blind_id,poem_id,term_scores,relation_scores,major_errors,minor_errors,error_log,image_score,emotion_score,english_score,format_pass,notes
+B001,T12,T12-T1:2;T12-T2:2;T12-T3:2;T12-T4:2,T12-R1:2;T12-R2:2;T12-R3:2,0,0,,2,2,2,1,Golden wind/jade dew and the magpie bridge are clear; condition and rhetorical question preserved.
+B002,T10,T10-T1:2;T10-T2:2;T10-T3:2,T10-R1:2;T10-R2:2;T10-R3:2,0,0,,2,2,2,1,Negation and auditory inference are clear.
+B003,T09,T09-T1:2;T09-T2:2;T09-T3:2;T09-T4:2,T09-R1:2;T09-R2:2;T09-R3:1,0,1,minor: 'face me as I sleep in sorrow' forces a scene-facing reading; the ambiguity of 对愁眠 is narrowed.,2,2,1,1,Notes explain Gusu/Hanshan; the ambiguity itself is not flagged.
+B004,T11,T11-T1:2;T11-T2:2;T11-T3:2,T11-R1:2;T11-R2:2;T11-R3:2,0,0,,2,2,2,1,Notes explain the palace and rosy faces; the metaphor is intact.
+B005,T11,T11-T1:2;T11-T2:2;T11-T3:2,T11-R1:2;T11-R2:2;T11-R3:2,0,0,,2,2,2,1,The third note only repeats the phrase; the verse itself carries the metaphor.
+B006,T10,T10-T1:2;T10-T2:2;T10-T3:2,T10-R1:2;T10-R2:2;T10-R3:2,0,0,,2,2,2,1,Compact and clear.
+B007,T11,T11-T1:2;T11-T2:2;T11-T3:2,T11-R1:2;T11-R2:2;T11-R3:2,0,0,,2,2,2,1,'jade-white steps' and 'how much sorrow I can hold' are effective.
+B008,T12,T12-T1:2;T12-T2:2;T12-T3:2;T12-T4:2,T12-R1:2;T12-R2:2;T12-R3:2,0,0,,2,2,2,1,Full set of notes; condition and contrast are clear.
+B009,T12,T12-T1:2;T12-T2:2;T12-T3:2;T12-T4:2,T12-R1:2;T12-R2:2;T12-R3:2,0,0,,2,2,2,1,'Silver River' with note; the annual meeting and daily companionship are clear.
+B010,T10,T10-T1:2;T10-T2:2;T10-T3:2,T10-R1:2;T10-R2:2;T10-R3:2,0,0,,2,2,2,1,'do not know it is dawn' is slightly less 'unaware' but acceptable.
+B011,T12,T12-T1:2;T12-T2:2;T12-T3:2;T12-T4:2,T12-R1:2;T12-R2:2;T12-R3:2,0,0,,2,2,2,1,'steal unseen' for 暗度; notes support the legend.
+B012,T10,T10-T1:2;T10-T2:2;T10-T3:2,T10-R1:2;T10-R2:2;T10-R3:2,0,0,,2,2,2,1,Short lines; the question is preserved.
+B013,T09,T09-T1:2;T09-T2:2;T09-T3:2;T09-T4:2,T09-R1:2;T09-R2:2;T09-R3:2,0,0,,2,2,2,1,Note explicitly preserves the ambiguity of 对愁眠.
+B014,T09,T09-T1:2;T09-T2:2;T09-T3:2;T09-T4:2,T09-R1:2;T09-R2:2;T09-R3:2,0,0,,2,2,1,1,"'face a sorrowful sleep' is awkward, but the note preserves the ambiguity."
+B015,T11,T11-T1:2;T11-T2:2;T11-T3:2,T11-R1:2;T11-R2:2;T11-R3:2,0,0,,2,2,2,1,Direct and coherent; the metaphor closes the poem.
+B016,T09,T09-T1:2;T09-T2:2;T09-T3:2;T09-T4:2,T09-R1:2;T09-R2:2;T09-R3:1,0,1,minor: 'face my sorrowful sleep' forces a reading; no note on the deliberate ambiguity.,2,2,1,1,Gusu/Hanshan are clear; the ambiguity is narrowed.

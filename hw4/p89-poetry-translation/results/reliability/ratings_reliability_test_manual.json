@@ -1,0 +1,30 @@
+{
+  "R001": {
+    "term_scores": {"T10-T1": 2, "T10-T2": 2, "T10-T3": 2},
+    "relation_scores": {"T10-R1": 2, "T10-R2": 2, "T10-R3": 2},
+    "major_errors": 0,
+    "minor_errors": 0,
+    "notes": "Negation and auditory inference are clear."
+  },
+  "R002": {
+    "term_scores": {"T09-T1": 2, "T09-T2": 2, "T09-T3": 2, "T09-T4": 2},
+    "relation_scores": {"T09-R1": 2, "T09-R2": 2, "T09-R3": 1},
+    "major_errors": 0,
+    "minor_errors": 1,
+    "notes": "'face my sorrowful sleep' forces a single reading."
+  },
+  "R003": {
+    "term_scores": {"T09-T1": 2, "T09-T2": 2, "T09-T3": 2, "T09-T4": 2},
+    "relation_scores": {"T09-R1": 2, "T09-R2": 2, "T09-R3": 1},
+    "major_errors": 0,
+    "minor_errors": 1,
+    "notes": "'face me as I sleep in sorrow' forces a single reading; notes do not flag the ambiguity."
+  },
+  "R004": {
+    "term_scores": {"T10-T1": 2, "T10-T2": 2, "T10-T3": 2},
+    "relation_scores": {"T10-R1": 2, "T10-R2": 2, "T10-R3": 2},
+    "major_errors": 0,
+    "minor_errors": 0,
+    "notes": "Clear and compact."
+  }
+}

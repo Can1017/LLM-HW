@@ -1,0 +1,18 @@
+{
+  "B001": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "Parallel opening and the conditional ending work as an English poem."},
+  "B002": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "The notes keep the ambiguity without smothering the verse."},
+  "B003": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 1, "s_r_misread": 2, "notes": "'face me as I sleep in sorrow' is syntactically awkward."},
+  "B004": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "The river-of-spring-water close lands."},
+  "B005": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "Spare and musical."},
+  "B006": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "Clean quatrain; the question is unforced."},
+  "B007": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "The direct address gives the poem a public voice."},
+  "B008": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "Balanced couplets; notes are informative."},
+  "B009": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 1, "s_r_misread": 1, "notes": "'face my sorrowful sleep' is awkward and narrows the deliberate ambiguity."},
+  "B010": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "Strong closing simile."},
+  "B011": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "The question-answer turn is clear."},
+  "B012": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "Light and readable."},
+  "B013": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "'steal unseen' gives the secret crossing a nice verb."},
+  "B014": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 1, "s_r_misread": 2, "notes": "'stealthily crossed over its vast span' is clunky."},
+  "B015": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "The dash and the bell create a strong close."},
+  "B016": {"s_r_core": 2, "s_r_imagery": 2, "s_r_poem": 2, "s_r_misread": 2, "notes": "Simple and effective."}
+}

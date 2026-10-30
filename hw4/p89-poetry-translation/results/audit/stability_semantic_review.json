@@ -1,0 +1,34 @@
+{
+  "scope": "事后复用24次稳定性输出；每首固定一个目标锚点，不补写完整S_F总评。当前AI复核者，非独立专家盲评。",
+  "anchors": {
+    "T01": "返景的夕照或返照信息：明确 reflected evening / setting sun rays记2，returning light仅部分明确记1。与原评分术语尺度一致，非唯一合法诗译。",
+    "T04": "未来团聚中回忆眼前夜雨：When shall/can统领talk可给2，不要求正文增加then或this。",
+    "T07": "将息的休养：rest and recover记2，rest/find rest记1。rest在文学语境可包含休养，因此该尺度有争议。"
+  },
+  "items": {
+    "T01-v0-r1": {"target":1,"evidence":"Returning sunlight","other":""},
+    "T01-v0-r2": {"target":1,"evidence":"Returning sunlight","other":"echo增加回响，文学表达可接受与否有争议"},
+    "T01-v1-r1": {"target":1,"evidence":"Returning light","other":""},
+    "T01-v1-r2": {"target":1,"evidence":"Returning sunlight","other":""},
+    "T01-v2-r1": {"target":2,"evidence":"Reflected evening sunlight","other":""},
+    "T01-v2-r2": {"target":2,"evidence":"Reflected evening sunlight","other":""},
+    "T01-v3-r1": {"target":1,"evidence":"Returning sunlight","other":""},
+    "T01-v3-r2": {"target":2,"evidence":"The setting sun’s rays","other":""},
+    "T04-v0-r1": {"target":2,"evidence":"When can we ... And talk of this night rain","other":""},
+    "T04-v0-r2": {"target":2,"evidence":"When shall we ... And talk of this night of rain","other":"原文夜雨涨秋池变成Autumn rain / evening pools，时间修饰语移位"},
+    "T04-v1-r1": {"target":2,"evidence":"When shall we ... And then talk of that time","other":"that time措辞偏直白"},
+    "T04-v1-r2": {"target":2,"evidence":"When shall we ... and then talk of this night rain","other":""},
+    "T04-v2-r1": {"target":2,"evidence":"When shall we ... And then talk of the night rain","other":""},
+    "T04-v2-r2": {"target":2,"evidence":"When will it be that ... And talk of this night rain","other":""},
+    "T04-v3-r1": {"target":2,"evidence":"When shall we ... And talk of the night rain","other":""},
+    "T04-v3-r2": {"target":2,"evidence":"When shall we ... And talk then of the night rain","other":""},
+    "T07-v0-r1": {"target":1,"evidence":"it is hardest to rest","other":"Three cups, two cups有逐字列数倾向"},
+    "T07-v0-r2": {"target":1,"evidence":"it is hardest to find rest","other":""},
+    "T07-v1-r1": {"target":2,"evidence":"rest and recover","other":"四条长诗行压缩节奏；Three cups, two cups有逐字列数倾向"},
+    "T07-v1-r2": {"target":2,"evidence":"rest and recover","other":"Three cups and two small cups有相加列数倾向；不是可直接断言五杯的事实"},
+    "T07-v2-r1": {"target":2,"evidence":"rest and recover","other":"Just as my heart is breaking, Yet...衔接偏生硬"},
+    "T07-v2-r2": {"target":2,"evidence":"rest and recover","other":"Three cups, two cups有逐字列数倾向"},
+    "T07-v3-r1": {"target":2,"evidence":"rest and recover","other":"Three cups, two cups有逐字列数倾向"},
+    "T07-v3-r2": {"target":1,"evidence":"how hard it is to rest","other":"Three cups, two bowls有逐字列数倾向"}
+  }
+}

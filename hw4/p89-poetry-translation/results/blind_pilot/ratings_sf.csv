@@ -1,0 +1,5 @@
+blind_id,poem_id,term_scores,relation_scores,major_errors,minor_errors,error_log,image_score,emotion_score,english_score,format_pass,notes
+B001,T01,T01-T1:;T01-T2:;T01-T3:,T01-R1:;T01-R2:,,,,,,,,
+B002,T01,T01-T1:;T01-T2:;T01-T3:,T01-R1:;T01-R2:,,,,,,,,
+B003,T01,T01-T1:;T01-T2:;T01-T3:,T01-R1:;T01-R2:,,,,,,,,
+B004,T01,T01-T1:;T01-T2:;T01-T3:,T01-R1:;T01-R2:,,,,,,,,

@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-29T16:13:35+08:00",
+  "model": "deepseek-v4.1-flash-1017",
+  "temperature": 0.2,
+  "max_tokens": 12000,
+  "seed": 2026102904,
+  "reps": 2,
+  "calls": 24,
+  "data_sha256": "4267f2fc2aa28982f826db9485c3c5ee9c2fda308c5af5958b1d9fd2201ee3ed",
+  "plan_sha256": "306fe0df4cd2747981848b8f33bf15221c2dcd7e1e7c7189054a11e9440a2e5f",
+  "script_sha256": "328e1002e563de6a9f627ed416610b9e861332ee565768380bb279a9aca36d60",
+  "conditions": [
+    "a0",
+    "a1",
+    "a2"
+  ]
+}

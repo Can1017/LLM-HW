@@ -1,0 +1,40 @@
+{
+  "standard": "sf",
+  "seed": 1,
+  "results": "D:\\PostGraduate\\LLM\\hw4\\p89-poetry-translation\\results\\pilot\\pilot_T01_final.jsonl",
+  "results_sha256": "faec439fb9f4109353f1d65575193ab8be71a4ecd37c2be4c0a76abe945a700b",
+  "items": [
+    {
+      "blind_id": "B001",
+      "run_key": "T01-v3-r1",
+      "poem_id": "T01",
+      "version": "v3",
+      "rep": 1,
+      "content_sha256": "67a69688f8fa85e1d013b1ab04f9c0f9e861c21eee99a5e3224aa4ad7ff7b20d"
+    },
+    {
+      "blind_id": "B002",
+      "run_key": "T01-v0-r1",
+      "poem_id": "T01",
+      "version": "v0",
+      "rep": 1,
+      "content_sha256": "7afc86063f5d023978ff6479dd39a3b6cab294f3a8aa06d650c3a0897bf29de8"
+    },
+    {
+      "blind_id": "B003",
+      "run_key": "T01-v2-r1",
+      "poem_id": "T01",
+      "version": "v2",
+      "rep": 1,
+      "content_sha256": "0dd6a6634cc90f7898d08287b516fff013cc3f4531060e9fe888237abbba316d"
+    },
+    {
+      "blind_id": "B004",
+      "run_key": "T01-v1-r1",
+      "poem_id": "T01",
+      "version": "v1",
+      "rep": 1,
+      "content_sha256": "4078286ee7ca473d9a029e33473be9b59c950950c1cd510687bdb5d74e497262"
+    }
+  ]
+}
