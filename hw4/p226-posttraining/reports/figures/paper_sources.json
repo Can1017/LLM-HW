@@ -1,0 +1,53 @@
+[
+  {
+    "id": "2505.09388",
+    "version": 1,
+    "page": 9,
+    "figure": 1,
+    "clip": [
+      65,
+      550,
+      535,
+      775
+    ],
+    "file": "paper_qwen3_pipeline.png",
+    "scale": 2.8,
+    "source": "https://arxiv.org/abs/2505.09388v1",
+    "pdf_sha256": "84a5e2b1fa04bb774bf12ae606d1e6d9dd2147ed2ebe78a4cfeb91ba380ffdd5",
+    "edit": "Figure crop only; no curve redrawing or numerical modification"
+  },
+  {
+    "id": "2507.18071",
+    "version": 2,
+    "page": 5,
+    "figure": 1,
+    "clip": [
+      58,
+      185,
+      540,
+      485
+    ],
+    "file": "paper_gspo_training_curves.png",
+    "scale": 2.8,
+    "source": "https://arxiv.org/abs/2507.18071v2",
+    "pdf_sha256": "67221ec313f42d8b3029686b604b2621a311ae0d74e38524092e7c7a94613bd0",
+    "edit": "Figure crop only; no curve redrawing or numerical modification"
+  },
+  {
+    "id": "2602.04879",
+    "version": 3,
+    "page": 2,
+    "figure": 2,
+    "clip": [
+      45,
+      61,
+      299,
+      169
+    ],
+    "file": "paper_dppo_ratio_tv.png",
+    "scale": 4.0,
+    "source": "https://arxiv.org/abs/2602.04879v3",
+    "pdf_sha256": "e27a6333f8e3b7790145d25e1be19bf7e6164c9c4ae1651ccc2640bf8302eb3c",
+    "edit": "Figure crop only; no curve redrawing or numerical modification"
+  }
+]

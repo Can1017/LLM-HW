@@ -6,12 +6,12 @@
 
 - 主线代码：Hugging Face TRL、字节跳动 `verl`、阿里 ModelScope `ms-swift`。
 - 算法重点：DPO、GRPO，以及 DAPO、GSPO、Dr.GRPO、2026 年 DPPO 与教师逐 token 反馈。
-- 真实模型训练：暂列为可选附录，不作为本报告主体完成条件。
+- 实践范围：CPU 原函数与梯度检查、三动作策略更新；不包含语言模型训练。
 - 代码版本：记录在 `research/sources.json`，以仓库提交哈希锁定。
 
 ## 当前报告
 
-- [研究报告](reports/大语言模型后训练演进与强化学习代码研究.md)：正式报告，包含技术演进、三套开源实现、代码级机制实践、图表和局限说明。
+- [研究报告](reports/大语言模型后训练演进与强化学习代码研究.md)：按研究过程展开，包含方法演进、关键代码、反向传播解释、实际结果和研究收获。
 - [31 个代码永久链接](reports/代码索引.md)：从真实 AST 节点生成的行号与固定提交链接。
 - [机器可读结果](research/results/mechanism_lab.json)：17 项机制检查、数值、梯度和源码哈希。
 
@@ -29,7 +29,13 @@
 
     python research/scripts/generate_figures.py
 
-需要 Matplotlib。报告图片由脚本生成，PNG用于在线展示，SVG保留为可编辑图源。
+需要 Matplotlib。三张自绘图分别表达技术演进、在线更新的数据流和本次机制结果，PNG用于在线展示，SVG保留为可编辑图源。
+
+报告另引用Qwen3、GSPO、DPPO三张论文原图，页码、图号、裁切范围和PDF哈希记录在 [paper_sources.json](reports/figures/paper_sources.json)。取得对应版本的PDF后，可重新提取：
+
+    python research/scripts/extract_paper_figures.py --paper-cache research/papers
+
+该脚本需要 PyMuPDF，只做原图裁切与渲染，不重绘论文中的数据。
 
 ## 文献和证据
 
