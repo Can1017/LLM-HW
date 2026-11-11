@@ -1,0 +1,8 @@
+research/repos/
+research/papers/*.html
+research/papers/*.pdf
+research/papers/*.part
+research/papers/*.txt
+reports/qa-*/
+research/scripts/__pycache__/
+

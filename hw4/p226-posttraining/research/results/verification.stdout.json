@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "source_commit_scope": {
+    "verl": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "ms_swift": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "trl": "d115286bc5aef8d346e8510bfe312803c7881c4a"
+  },
+  "compile_checks": {
+    "research\\repos\\trl\\trl\\trainer\\dpo_trainer.py": "ok",
+    "research\\repos\\trl\\trl\\trainer\\grpo_trainer.py": "ok",
+    "research\\repos\\verl\\verl\\trainer\\ppo\\core_algos.py": "ok",
+    "research\\repos\\ms-swift\\swift\\rl_core\\advantage.py": "ok"
+  },
+  "grouped_rewards": [
+    1.0,
+    0.0,
+    2.0,
+    1.0
+  ],
+  "verl_grpo_scaled": [
+    0.7071057558059692,
+    -0.7071057558059692,
+    0.7071057558059692,
+    -0.7071057558059692
+  ],
+  "verl_dr_grpo_unscaled": [
+    0.5,
+    -0.5,
+    0.5,
+    -0.5
+  ],
+  "swift_grpo_scaled": [
+    0.7070068120956421,
+    -0.7070068120956421,
+    0.7070068120956421,
+    -0.7070068120956421
+  ],
+  "swift_grpo_rewards": [
+    1.0,
+    0.0,
+    2.0,
+    1.0
+  ],
+  "swift_unscaled": [
+    0.5,
+    -0.5,
+    0.5,
+    -0.5
+  ],
+  "gspo_sequence_importance_ratio": [
+    0.8320335149765015,
+    1.0137003660202026
+  ],
+  "gspo_loss": 0.09083342552185059,
+  "gspo_metrics": {
+    "actor/pg_clipfrac": 0.0,
+    "actor/ppo_kl": 0.08513759821653366,
+    "actor/pg_clipfrac_lower": 0.0
+  },
+  "observations": [
+    "verl and ms-swift agree on grouped GRPO centering and group-standard-deviation scaling for this synthetic case.",
+    "turning off standard-deviation scaling produces the Dr.GRPO-style centered signal.",
+    "GSPO broadcasts one sequence-level importance ratio across the response tokens of each sequence."
+  ]
+}

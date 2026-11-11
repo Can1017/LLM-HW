@@ -1,0 +1,312 @@
+[
+  {
+    "repository": "trl",
+    "commit": "d115286bc5aef8d346e8510bfe312803c7881c4a",
+    "file": "trl/trainer/dpo_trainer.py",
+    "symbol": "DPOTrainer._precompute_ref_logps",
+    "line": 1237,
+    "end_line": 1310,
+    "sha256": "d11dc5d65b124f0aa25be3e9a0531d1ed2509a4101ec1175727cc49ea74b789f",
+    "url": "https://github.com/huggingface/trl/blob/d115286bc5aef8d346e8510bfe312803c7881c4a/trl/trainer/dpo_trainer.py#L1237"
+  },
+  {
+    "repository": "trl",
+    "commit": "d115286bc5aef8d346e8510bfe312803c7881c4a",
+    "file": "trl/trainer/dpo_trainer.py",
+    "symbol": "DPOTrainer._compute_loss",
+    "line": 1354,
+    "end_line": 1693,
+    "sha256": "d11dc5d65b124f0aa25be3e9a0531d1ed2509a4101ec1175727cc49ea74b789f",
+    "url": "https://github.com/huggingface/trl/blob/d115286bc5aef8d346e8510bfe312803c7881c4a/trl/trainer/dpo_trainer.py#L1354"
+  },
+  {
+    "repository": "trl",
+    "commit": "d115286bc5aef8d346e8510bfe312803c7881c4a",
+    "file": "trl/trainer/grpo_trainer.py",
+    "symbol": "GRPOTrainer._prepare_inputs",
+    "line": 1612,
+    "end_line": 1641,
+    "sha256": "9805cbb45ee5467f387ba38b6bbe44f2fd857eee4794e8d01b01a012fcd30428",
+    "url": "https://github.com/huggingface/trl/blob/d115286bc5aef8d346e8510bfe312803c7881c4a/trl/trainer/grpo_trainer.py#L1612"
+  },
+  {
+    "repository": "trl",
+    "commit": "d115286bc5aef8d346e8510bfe312803c7881c4a",
+    "file": "trl/trainer/grpo_trainer.py",
+    "symbol": "GRPOTrainer._generate_and_score_completions",
+    "line": 2450,
+    "end_line": 3078,
+    "sha256": "9805cbb45ee5467f387ba38b6bbe44f2fd857eee4794e8d01b01a012fcd30428",
+    "url": "https://github.com/huggingface/trl/blob/d115286bc5aef8d346e8510bfe312803c7881c4a/trl/trainer/grpo_trainer.py#L2450"
+  },
+  {
+    "repository": "trl",
+    "commit": "d115286bc5aef8d346e8510bfe312803c7881c4a",
+    "file": "trl/trainer/grpo_trainer.py",
+    "symbol": "GRPOTrainer._compute_loss",
+    "line": 3162,
+    "end_line": 3433,
+    "sha256": "9805cbb45ee5467f387ba38b6bbe44f2fd857eee4794e8d01b01a012fcd30428",
+    "url": "https://github.com/huggingface/trl/blob/d115286bc5aef8d346e8510bfe312803c7881c4a/trl/trainer/grpo_trainer.py#L3162"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/main_ppo.py",
+    "symbol": "run_ppo",
+    "line": 41,
+    "end_line": 111,
+    "sha256": "ff73c3946594401487934270a6ff7988165d3f8be7f020fe43a79cd37e484c10",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/main_ppo.py#L41"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/ray_trainer.py",
+    "symbol": "RayPPOTrainer.fit",
+    "line": 1407,
+    "end_line": 1825,
+    "sha256": "dced113dc342c7ad170ef399b1d9b61b806db57572b0b2bd1e8ae13fef4563b6",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/ray_trainer.py#L1407"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/ray_trainer.py",
+    "symbol": "compute_advantage",
+    "line": 187,
+    "end_line": 282,
+    "sha256": "dced113dc342c7ad170ef399b1d9b61b806db57572b0b2bd1e8ae13fef4563b6",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/ray_trainer.py#L187"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/ray_trainer.py",
+    "symbol": "RayPPOTrainer._update_actor",
+    "line": 1329,
+    "end_line": 1378,
+    "sha256": "dced113dc342c7ad170ef399b1d9b61b806db57572b0b2bd1e8ae13fef4563b6",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/ray_trainer.py#L1329"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/core_algos.py",
+    "symbol": "compute_gae_advantage_return",
+    "line": 216,
+    "end_line": 263,
+    "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/core_algos.py#L216"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/core_algos.py",
+    "symbol": "compute_grpo_outcome_advantage",
+    "line": 268,
+    "end_line": 331,
+    "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/core_algos.py#L268"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/core_algos.py",
+    "symbol": "agg_loss",
+    "line": 1140,
+    "end_line": 1206,
+    "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/core_algos.py#L1140"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/core_algos.py",
+    "symbol": "compute_policy_loss_vanilla",
+    "line": 1286,
+    "end_line": 1376,
+    "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/core_algos.py#L1286"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/core_algos.py",
+    "symbol": "compute_policy_loss_gspo",
+    "line": 1546,
+    "end_line": 1619,
+    "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/core_algos.py#L1546"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/core_algos.py",
+    "symbol": "compute_policy_loss_dppo_tv",
+    "line": 1380,
+    "end_line": 1457,
+    "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/core_algos.py#L1380"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/trainer/ppo/core_algos.py",
+    "symbol": "compute_policy_loss_dppo_kl",
+    "line": 1461,
+    "end_line": 1542,
+    "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/trainer/ppo/core_algos.py#L1461"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/workers/utils/losses.py",
+    "symbol": "ppo_loss",
+    "line": 57,
+    "end_line": 190,
+    "sha256": "f7bc15349f2396a2f53ab37e760f1c898649686e58eb7186f6ab2b8f9088fd28",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/workers/utils/losses.py#L57"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/workers/engine_workers.py",
+    "symbol": "ActorRolloutRefWorker.update_actor",
+    "line": 770,
+    "end_line": 772,
+    "sha256": "6739ab5320888e06fc5b1a895bcb2bb3e656b73834ea5324d443954dc3625b44",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/workers/engine_workers.py#L770"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/workers/engine_workers.py",
+    "symbol": "TrainingWorker.train_mini_batch",
+    "line": 278,
+    "end_line": 374,
+    "sha256": "6739ab5320888e06fc5b1a895bcb2bb3e656b73834ea5324d443954dc3625b44",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/workers/engine_workers.py#L278"
+  },
+  {
+    "repository": "verl",
+    "commit": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "file": "verl/workers/engine/base.py",
+    "symbol": "BaseEngine.train_batch",
+    "line": 113,
+    "end_line": 132,
+    "sha256": "ec4f80bae6121a335b48c913b0ead5357d8cf7df8a6994be6d21dbbacfb38ca0",
+    "url": "https://github.com/volcengine/verl/blob/81464bb6d35cbb43962be42b0088a591e7020f21/verl/workers/engine/base.py#L113"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/pipelines/train/rlhf.py",
+    "symbol": "SwiftRLHF._get_trainer_kwargs",
+    "line": 231,
+    "end_line": 255,
+    "sha256": "dda9caed364aa11d32a0f39d63e7cba5b3762c2d4086cea22c5f4d31b6188d00",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/pipelines/train/rlhf.py#L231"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rlhf_trainers/rollout_mixin.py",
+    "symbol": "RolloutTrainerMixin._generate_and_score_completions",
+    "line": 124,
+    "end_line": 146,
+    "sha256": "ab9707cbd5d463399c5f55b757468563b3f3b94a64a46a49eb8652e88e6cfe0e",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rlhf_trainers/rollout_mixin.py#L124"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rlhf_trainers/rollout_mixin.py",
+    "symbol": "RolloutTrainerMixin._rollout",
+    "line": 1096,
+    "end_line": 1106,
+    "sha256": "ab9707cbd5d463399c5f55b757468563b3f3b94a64a46a49eb8652e88e6cfe0e",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rlhf_trainers/rollout_mixin.py#L1096"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rlhf_trainers/grpo_trainer.py",
+    "symbol": "GRPOTrainer._score_completions",
+    "line": 217,
+    "end_line": 230,
+    "sha256": "32c8ebadf25d4a164c81b662bae72a8f44738fd62e7598edfb6b389657ce786b",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rlhf_trainers/grpo_trainer.py#L217"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rlhf_trainers/grpo_trainer.py",
+    "symbol": "GRPOTrainer._postprocess_batch",
+    "line": 232,
+    "end_line": 302,
+    "sha256": "32c8ebadf25d4a164c81b662bae72a8f44738fd62e7598edfb6b389657ce786b",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rlhf_trainers/grpo_trainer.py#L232"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rlhf_trainers/grpo_trainer.py",
+    "symbol": "GRPOTrainer._compute_advantages",
+    "line": 374,
+    "end_line": 508,
+    "sha256": "32c8ebadf25d4a164c81b662bae72a8f44738fd62e7598edfb6b389657ce786b",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rlhf_trainers/grpo_trainer.py#L374"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rlhf_trainers/grpo_trainer.py",
+    "symbol": "GRPOTrainer._compute_loss_and_metrics",
+    "line": 931,
+    "end_line": 1227,
+    "sha256": "32c8ebadf25d4a164c81b662bae72a8f44738fd62e7598edfb6b389657ce786b",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rlhf_trainers/grpo_trainer.py#L931"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rl_core/advantage.py",
+    "symbol": "compute_advantages",
+    "line": 20,
+    "end_line": 99,
+    "sha256": "afa5a2ea49897d0419b116d246b868a064acd8ea5b53767dcb4652565cf38018",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rl_core/advantage.py#L20"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rl_core/advantage.py",
+    "symbol": "compute_advantages_dynamic",
+    "line": 102,
+    "end_line": 211,
+    "sha256": "afa5a2ea49897d0419b116d246b868a064acd8ea5b53767dcb4652565cf38018",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rl_core/advantage.py#L102"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rl_core/advantage.py",
+    "symbol": "expand_advantage_to_per_token",
+    "line": 263,
+    "end_line": 291,
+    "sha256": "afa5a2ea49897d0419b116d246b868a064acd8ea5b53767dcb4652565cf38018",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rl_core/advantage.py#L263"
+  },
+  {
+    "repository": "ms-swift",
+    "commit": "a8dccaafe9324a5d454c44703e3dce92370f5c1c",
+    "file": "swift/rl_core/advantage.py",
+    "symbol": "apply_rlsd_reweight",
+    "line": 294,
+    "end_line": 343,
+    "sha256": "afa5a2ea49897d0419b116d246b868a064acd8ea5b53767dcb4652565cf38018",
+    "url": "https://github.com/modelscope/ms-swift/blob/a8dccaafe9324a5d454c44703e3dce92370f5c1c/swift/rl_core/advantage.py#L294"
+  }
+]

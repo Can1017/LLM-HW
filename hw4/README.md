@@ -6,6 +6,7 @@
 | --- | --- | --- |
 | P15：泄露提示词与越狱方法研究 | 已完成，含报告、研究记录、脚本和原始结果 | [第一题](p15-prompt-leakage/README.md) |
 | P89：唐诗宋词英译提示对照实验 | 已完成，含最终报告、四阶段记录、脚本与原始结果 | [第二题](p89-poetry-translation/README.md) |
+| P226：后训练技术演进与强化学习代码研究 | 已完成，含 Markdown 报告、三套源码分析、机制实践和图表 | [第三题](p226-posttraining/README.md) |
 
 ```text
 hw4/
@@ -27,6 +28,10 @@ hw4/
     ├── prompts/
     ├── results/
     └── reports/
+└── p226-posttraining/
+    ├── README.md
+    ├── reports/                 Markdown报告、图表、代码索引与汇报讲稿
+    └── research/                固定版本清单、机制脚本与可复查结果
 ```
 
 ## 文件与配置

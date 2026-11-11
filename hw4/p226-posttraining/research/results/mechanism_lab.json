@@ -1,0 +1,420 @@
+{
+  "scope": "Local exact-source tensor functions and categorical optimizer only; no LLM training",
+  "environment": {
+    "python": "3.11.7",
+    "torch": "2.5.1+cpu",
+    "device": "cpu",
+    "dtype": "float64",
+    "seed": 7
+  },
+  "commits": {
+    "trl": "d115286bc5aef8d346e8510bfe312803c7881c4a",
+    "verl": "81464bb6d35cbb43962be42b0088a591e7020f21",
+    "ms-swift": "a8dccaafe9324a5d454c44703e3dce92370f5c1c"
+  },
+  "checks": [
+    "GRPO implementations agree within their epsilon difference",
+    "Centered advantages are [-groupmean,+groupmean]",
+    "Equal outcome rewards produce zero policy advantages",
+    "UID grouping survives an interleaved permutation",
+    "Fixed contiguous grouping changes after interleaving",
+    "Token mean weights the longer sequence more",
+    "Sequence mean gives equal sequence weight",
+    "GSPO and GSPO-token constant-A gradients agree",
+    "Same forward loss does not prove tokenwise gradient equivalence",
+    "PPO clips both positive-advantage tokens at ratio 1.5",
+    "DPPO-TV keeps the small probability shift in this example",
+    "DPO loss can fall while chosen absolute probability falls",
+    "A tiny categorical policy takes actual gradient update steps",
+    "RLSD reweight preserves the sign of outcome advantages",
+    "RLSD teacher and old policy gaps are detached",
+    "Padding carries no advantage",
+    "Repeated turns of one request receive the same deduplicated advantage"
+  ],
+  "check_count": 17,
+  "results": {
+    "grouping": {
+      "rewards": [
+        1.0,
+        0.0,
+        3.0,
+        1.0
+      ],
+      "verl": [
+        0.7071057811879616,
+        -0.7071057811879616,
+        0.7071062811869011,
+        -0.7071062811869011
+      ],
+      "swift": [
+        0.7070067953266834,
+        -0.7070067953266834,
+        0.7070567847218314,
+        -0.7070567847218314
+      ],
+      "zero_std": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "permutation": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "shuffled_uid": [
+        0.7071057811879616,
+        0.7071062811869011,
+        -0.7071057811879616,
+        -0.7071062811869011
+      ],
+      "shuffled_contiguous": [
+        -0.7070567847218314,
+        0.7070567847218314,
+        -0.7070067953266834,
+        0.7070067953266834
+      ]
+    },
+    "aggregation": {
+      "token-mean": {
+        "loss": 2.5,
+        "per_token_gradient": [
+          [
+            0.125,
+            0.125,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125
+          ]
+        ]
+      },
+      "seq-mean-token-mean": {
+        "loss": 1.999999995,
+        "per_token_gradient": [
+          [
+            0.24999999875,
+            0.24999999875,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.08333333319444444,
+            0.08333333319444444,
+            0.08333333319444444,
+            0.08333333319444444,
+            0.08333333319444444,
+            0.08333333319444444
+          ]
+        ]
+      },
+      "seq-mean-token-sum-norm": {
+        "loss": 1.25,
+        "per_token_gradient": [
+          [
+            0.0625,
+            0.0625,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0625,
+            0.0625,
+            0.0625,
+            0.0625,
+            0.0625,
+            0.0625
+          ]
+        ]
+      }
+    },
+    "gspo_gradients": {
+      "constant_advantage": {
+        "token_loss": -0.999999995,
+        "sequence_loss": -1.0,
+        "token_gradient": [
+          [
+            -0.4999999975,
+            -0.4999999975
+          ]
+        ],
+        "sequence_gradient": [
+          [
+            -0.5,
+            -0.5
+          ]
+        ]
+      },
+      "varying_advantage": {
+        "token_loss": 0.0,
+        "sequence_loss": -0.0,
+        "token_gradient": [
+          [
+            -0.4999999975,
+            0.4999999975
+          ]
+        ],
+        "sequence_gradient": [
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    "trust_region": {
+      "old_probabilities": [
+        [
+          0.001,
+          0.5
+        ]
+      ],
+      "current_probabilities": [
+        [
+          0.0015,
+          0.75
+        ]
+      ],
+      "ratio": [
+        [
+          1.5,
+          1.5
+        ]
+      ],
+      "outcomes": {
+        "PPO ratio": {
+          "loss": -1.2,
+          "logp_gradient": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "metrics": {
+            "actor/pg_clipfrac": 0.999999995,
+            "actor/ppo_kl": -0.40546510608083897,
+            "actor/pg_clipfrac_lower": 0.0
+          }
+        },
+        "DPPO binary TV": {
+          "loss": 4.876717628155481,
+          "logp_gradient": [
+            [
+              -0.7500000000000002,
+              -0.0
+            ]
+          ],
+          "metrics": {
+            "actor/pg_clipfrac": 0.4999999975,
+            "actor/ppo_kl": -0.40546510608083897,
+            "actor/pg_clipfrac_lower": 0.0
+          }
+        },
+        "DPPO binary KL": {
+          "loss": 4.876717628155481,
+          "logp_gradient": [
+            [
+              -0.7500000000000002,
+              -0.0
+            ]
+          ],
+          "metrics": {
+            "actor/pg_clipfrac": 0.4999999975,
+            "actor/ppo_kl": -0.40546510608083897,
+            "actor/pg_clipfrac_lower": 0.0
+          }
+        }
+      }
+    },
+    "dpo": {
+      "reference": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "counterexample": [
+        0.15,
+        0.01,
+        0.84
+      ],
+      "original_loss": 0.6931471805599453,
+      "counterexample_loss": 0.5974682609165902,
+      "optimizer_trace": [
+        {
+          "step": 0,
+          "loss": 0.6931471805599453,
+          "probabilities": [
+            0.2,
+            0.10000000000000003,
+            0.7
+          ]
+        },
+        {
+          "step": 1,
+          "loss": 0.6926473055599401,
+          "probabilities": [
+            0.20090129972203083,
+            0.09945114919489423,
+            0.699647551083075
+          ]
+        },
+        {
+          "step": 2,
+          "loss": 0.6921479303098724,
+          "probabilities": [
+            0.20180474515451222,
+            0.09890486625678417,
+            0.6992903885887036
+          ]
+        },
+        {
+          "step": 3,
+          "loss": 0.6916490543098058,
+          "probabilities": [
+            0.20271033087591192,
+            0.0983611427611426,
+            0.6989285263629454
+          ]
+        }
+      ]
+    },
+    "teacher_reweight": {
+      "advantages": [
+        [
+          1.1,
+          0.9,
+          0.0
+        ],
+        [
+          -0.9,
+          -1.1,
+          -0.0
+        ]
+      ],
+      "teacher_gap": [
+        [
+          1.9,
+          -1.9,
+          0.0
+        ],
+        [
+          1.9,
+          -1.9,
+          0.0
+        ]
+      ]
+    },
+    "request_deduplication": {
+      "request_ids": [
+        "r1",
+        "r1",
+        "r2"
+      ],
+      "advantages": [
+        0.5,
+        0.5,
+        -0.5
+      ]
+    }
+  },
+  "provenance": [
+    {
+      "path": "research/repos/verl/verl/utils/torch_functional.py",
+      "function": "masked_sum",
+      "line": 305,
+      "end_line": 323,
+      "sha256": "2b5b946955e4f417826f8a5ec2ea2950cf5d27654b846457fcb15cdb84eb7161"
+    },
+    {
+      "path": "research/repos/verl/verl/utils/torch_functional.py",
+      "function": "masked_mean",
+      "line": 326,
+      "end_line": 340,
+      "sha256": "2b5b946955e4f417826f8a5ec2ea2950cf5d27654b846457fcb15cdb84eb7161"
+    },
+    {
+      "path": "research/repos/verl/verl/trainer/ppo/core_algos.py",
+      "function": "agg_loss",
+      "line": 1140,
+      "end_line": 1206,
+      "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f"
+    },
+    {
+      "path": "research/repos/verl/verl/trainer/ppo/core_algos.py",
+      "function": "compute_grpo_outcome_advantage",
+      "line": 268,
+      "end_line": 331,
+      "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f"
+    },
+    {
+      "path": "research/repos/verl/verl/trainer/ppo/core_algos.py",
+      "function": "compute_policy_loss_vanilla",
+      "line": 1286,
+      "end_line": 1376,
+      "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f"
+    },
+    {
+      "path": "research/repos/verl/verl/trainer/ppo/core_algos.py",
+      "function": "compute_policy_loss_gspo",
+      "line": 1546,
+      "end_line": 1619,
+      "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f"
+    },
+    {
+      "path": "research/repos/verl/verl/trainer/ppo/core_algos.py",
+      "function": "compute_policy_loss_dppo_tv",
+      "line": 1380,
+      "end_line": 1457,
+      "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f"
+    },
+    {
+      "path": "research/repos/verl/verl/trainer/ppo/core_algos.py",
+      "function": "compute_policy_loss_dppo_kl",
+      "line": 1461,
+      "end_line": 1542,
+      "sha256": "881ee511b04c15da06d7f904c4f231d5b5f488cd4b5a3c53a57526ab064ffe7f"
+    },
+    {
+      "path": "research/repos/ms-swift/swift/rl_core/advantage.py",
+      "function": "compute_advantages",
+      "line": 20,
+      "end_line": 99,
+      "sha256": "afa5a2ea49897d0419b116d246b868a064acd8ea5b53767dcb4652565cf38018"
+    },
+    {
+      "path": "research/repos/ms-swift/swift/rl_core/advantage.py",
+      "function": "compute_advantages_dynamic",
+      "line": 102,
+      "end_line": 211,
+      "sha256": "afa5a2ea49897d0419b116d246b868a064acd8ea5b53767dcb4652565cf38018"
+    },
+    {
+      "path": "research/repos/ms-swift/swift/rl_core/advantage.py",
+      "function": "apply_rlsd_reweight",
+      "line": 294,
+      "end_line": 343,
+      "sha256": "afa5a2ea49897d0419b116d246b868a064acd8ea5b53767dcb4652565cf38018"
+    },
+    {
+      "path": "research/repos/trl/trl/trainer/dpo_trainer.py",
+      "function": "DPO sigmoid branch",
+      "line": 1456,
+      "end_line": 1457,
+      "sha256": "d11dc5d65b124f0aa25be3e9a0531d1ed2509a4101ec1175727cc49ea74b789f"
+    }
+  ]
+}
