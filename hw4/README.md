@@ -30,7 +30,7 @@ hw4/
     └── reports/
 └── p226-posttraining/
     ├── README.md
-    ├── reports/                 Markdown报告、图表、代码索引与汇报讲稿
+    ├── reports/                 Markdown报告、图表与代码索引
     └── research/                固定版本清单、机制脚本与可复查结果
 ```
 
